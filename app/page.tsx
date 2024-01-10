@@ -37,14 +37,15 @@ export default function Home() {
       <h2 className="text-3xl font-semibold leading-9 my-10">Projects</h2>
       <div className="grid sm:grid-flow-col sm:grid-cols-2 gap-2 w-full sm:h-45">
         <a className="w-full h-60 sm:h-44" href="/projects/LittleLemon">
+          <div className="w-full h-52 sm:h-40 border rounded-lg">
           <Image
           // fill
             width={350}
             height={200}
             alt="Little-Lemon-ScreenShot"
-            className="w-full h-52 sm:h-40 border rounded-lg object-cover object-top"
+            className=" object-cover object-top"
             src="/LettleLemonHero700px.jpg"
-          />
+          /></div>
           <h2 className="text-lg mt-1">LittleLemon</h2>
         </a>
         <a className="w-full h-60 sm:h-44" href="#/">

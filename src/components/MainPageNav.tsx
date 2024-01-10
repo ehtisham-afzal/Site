@@ -1,4 +1,8 @@
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 import React from "react";
 
 const MainPageNav = () => {
@@ -11,7 +15,6 @@ const MainPageNav = () => {
         href="https://www.linkedin.com/in/ehtisham-afzal"
       >
         <LinkedInLogoIcon className="w-full h-full hover:text-blue-500" />
-        <p className="sr-only">LinkedIn</p>
       </a>
       <a
         className="w-10 h-full flex items-center"
@@ -19,7 +22,6 @@ const MainPageNav = () => {
         href="https://github.com/EHTISHAM-Afzal"
       >
         <GitHubLogoIcon className="w-full h-full hover:text-gray-500" />
-        <p className="sr-only">Github</p>
       </a>
       <a
         className="w-10 h-full flex items-center"
@@ -27,7 +29,6 @@ const MainPageNav = () => {
         href="https://twitter.com/EHTISHAMoo7"
       >
         <TwitterLogoIcon className="w-full h-full hover:text-blue-500" />
-        <p className="sr-only">TwitterX</p>
       </a>
     </div>
   );

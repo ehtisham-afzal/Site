@@ -1,10 +1,16 @@
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 import React from "react";
+import { ModeToggle } from "./ModeToggle";
 
 const MainPageNav = () => {
   return (
     <div className="flex w-full h-10 p-1 items-center justify-between gap-5 mt-8">
       <div className="w-full h-0.5 border border-white/50 bg-black mt-4"></div>
+      <ModeToggle />
       <a
         className="w-10 h-full flex items-center"
         target="_blank"

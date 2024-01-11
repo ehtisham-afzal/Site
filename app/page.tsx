@@ -10,8 +10,8 @@ import MainPageNav from "@/components/MainPageNav";
 
 export default function Home() {
   return (
-    <main className="w-full mt-28 ">
-      <div className="w-full gap-5 flex">
+    <main className="w-full relative mt-28 ">
+      <div className="w-full gap-5 flex ">
         <Image
           width={80}
           height={80}
@@ -38,7 +38,7 @@ export default function Home() {
       <div className="grid sm:grid-flow-col sm:grid-cols-2 gap-2 w-full sm:h-45">
         <a className="w-full h-60 sm:h-44" href="/projects/LittleLemon">
           <Image
-          // fill
+            // fill
             width={350}
             height={200}
             alt="Little-Lemon-ScreenShot"
@@ -60,7 +60,7 @@ export default function Home() {
         </a>
       </div>
 
-      <h2 className="my-12 text-3xl font-semibold leading-9 tracking-tight">
+      <h2 className="my-12 text-3xl font-semibold leading-9 tracking-tight text-primary">
         TechStack
       </h2>
       <div className="self-center grid flex-wrap w-full grid-flow-dense grid-cols-4 sm:grid-cols-5 gap-2 justify-stretch h-fit mb-10">

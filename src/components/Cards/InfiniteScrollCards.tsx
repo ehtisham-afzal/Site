@@ -36,7 +36,7 @@ const InfiniteScrollCards = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ProjectCard
-        ImgageUrl="/LettleLemonHero700px.jpg"
+          ImgageUrl="/LettleLemonHero700px.jpg"
           title="Moonbeam"
           description="Never write from scratch again. Kickstart your next great writing piece with Moonbeam. Your long-form writing AI assistant."
           href="https://gomoonbeam.com"
@@ -49,6 +49,21 @@ const InfiniteScrollCards = () => {
             "Chrome Extension",
           ]}
         />
+
+<div className="w-80 h-72 px-6 pt-24 pb-6 bg-neutral-900 rounded-3xl border flex-col justify-end items-center gap-10 inline-flex">
+    <div className="w-28 h-28 justify-center items-center inline-flex">
+        <div className="w-28 h-28 relative">
+            <div className="w-28 h-28 left-0 top-0 absolute bg-zinc-300 rounded-3xl" />
+            {/* <span className="w-36 h-36 left-[-13.33px] top-[-13px] absolute opacity-5"  /> */}
+        </div>
+    </div>
+    <div className="w-72 justify-between items-end inline-flex">
+        <div className="grow shrink basis-0 h-6 text-text-primar text-xl font-semibold font-['Inter']">Figma</div>
+        <div className="px-3 py-1.5 bg-neutral-900 rounded-3xl border border-neutral-800 justify-center items-center gap-2.5 flex">
+            <div className="text-primary text-sm font-normal font-['Inter']">Design</div>
+        </div>
+    </div>
+</div>
       </div>
     </div>
   );

@@ -1,13 +1,11 @@
-import InfiniteScrollCards from "@/components/Cards/InfiniteScrollCards";
-import ProjectBigCard from "@/components/Cards/ProjectBigCard";
+import { AppLogos } from "@/lib/Data";
 import TechCard from "@/components/Cards/TechCard";
 import React from "react";
-import Styles from "@/Styles/infinitScroll.module.css";
 import GlowingCardsProvider from "@/components/Cards/GlowingCardsProvider";
 
 const page = () => {
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-col">
       <h1>This is Practice Page</h1>
       {/* <InfiniteScrollCards /> */}
       {/* <div className="relative w-40 h-40 border">
@@ -23,31 +21,21 @@ const page = () => {
           </div>
         </div> */}
 
-      
       {/* <ProjectBigCard/> */}
 
-      <GlowingCardsProvider>
-        <TechCard
-          ImageURL="/Logos/NextJs.svg"
-          href="https://nextjs.org/"
-          Name="Next.Js"
-          Tage="Web Framwork"
-        />
-        <TechCard
-          ImageURL="/Logos/Astro.svg"
-          href="https://nextjs.org/"
-          Name="Astro"
-          Tage="Web Framwork"
-        />
-        <TechCard
-          ImageURL="/Logos/NextJs.svg"
-          href="https://nextjs.org/"
-          Name="Next.Js"
-          Tage="Web Framwork"
-        />
-      </GlowingCardsProvider>
-
-    
+      {/* <GlowingCardsProvider> */}
+        <div className="w-full my-5 grid grid-cols-1 gap-4 md:my-8 md:grid-cols-3">
+          {AppLogos.map((logo) => (
+            <TechCard
+              key={logo.Name}
+              ImageURL={logo.ImageURL}
+              href="https://nextjs.org/"
+              Name={logo.Name}
+              Tage={logo.Tage}
+            />
+          ))}
+        </div>
+      {/* </GlowingCardsProvider> */}
     </div>
   );
 };

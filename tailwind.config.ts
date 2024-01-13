@@ -71,10 +71,22 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+
+        "nav-down": {
+          from: { "top": "0" },
+          to: { "top": "8" }
+        },
+
+        "nav-up": {
+          from: { "bottom": "0" },
+          to: { "bottom": "4" }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "nav-down": "nav-down 0.2s ease-out",
+        "nav-up": "nav-up 0.2s ease-in"
       },
     },
   },

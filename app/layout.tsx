@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "@/Styles/globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Nav from "@/components/NavBar/Nav";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,13 +24,16 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans w-full antialiased p-0 px-4 m-0 sm:grid sm:grid-cols-[1fr,_35rem,_1fr] justify-center items-center text-primary",
+          "min-h-screen bg-background font-sans w-full antialiased p-0 px-4 m-0 flex  justify-center items-center text-primary",
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="system">
-          <div className="w-full sm:col-start-2">{children}</div>
-        </ThemeProvider>
+        <div className="w-full max-w-[1024px] self-center flex flex-col">
+          <ThemeProvider attribute="class" defaultTheme="system">
+            <Nav />
+            {children}
+          </ThemeProvider>
+        </div>
       </body>
     </html>
   );

@@ -22,129 +22,187 @@ export const SocialLinks = [
 export const LittleLemonStack = [
     {
         Name: "React",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
     {
         Name: "Express",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     },
     {
         Name: "MongoDB",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
     },
     {
         Name: "Redux",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
     },
     {
         Name: "ShadCN-UI",
-        Logo: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
+        ImageURL: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
     },
 ]
 
 export const AppLogos = [
     {
         Name: "HTML",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        href: "https://html.com/",
+        Tage: "Language"
     },
     {
         Name: "CSS ",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        href: "https://www.w3.org/Style/CSS/Overview.en.html",
+        Tage: "StyleSheet"
     },
     {
         Name: "JavaScript",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        href: "https://javascript.info",
+        Tage: "Language"
     },
     {
         Name: "TypeScript",
-        Logo: "/Logos/TypeScript.svg"
+        ImageURL: "/Logos/TypeScript.svg",
+        href: "https://www.typescriptlang.org/",
+        Tage: "Language"
     },
     {
         Name: "SQL",
-        Logo: "/Logos/sql.svg"
+        ImageURL: "/Logos/sql.svg",
+        href: "https://learnsql.com/",
+        Tage: "Language"
     },
     {
         Name: "React",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        href: "https://React.dev",
+        Tage: "UI Library"
     },
     {
         Name: "NodeJS ",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        href: "https://nodejs.org/",
+        Tage: "RunTime"
     },
     {
         Name: "NextJs",
-        Logo: "/Logos/NextJs.svg"
+        ImageURL: "/Logos/NextJs.svg",
+        href: "https://nextjs.org",
+        Tage: "Framework"
+    },
+    {
+        Name: "Vercel",
+        ImageURL: "/Logos/vercel.svg",
+        href: "https://vercel.com/home",
+        Tage: "Cloud"
     },
     {
         Name: "Astro",
-        Logo: "/Logos/Astro.svg",
+        ImageURL: "/Logos/Astro.svg",
+        href: "https://astro.build/",
+        Tage: "Framework"
     },
     {
         Name: "PostgreSQL",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg",
+        href: "https://www.postgresql.org/",
+        Tage: "Languege"
     },
     {
         Name: "MongoDB",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        href: "https://www.mongodb.com/",
+        Tage: "DataBase"
     },
     {
         Name: "Express",
-        Logo: "/Logos/Express.svg",
+        ImageURL: "/Logos/Express.svg",
+        href: "https://expressjs.com/",
+        Tage: "Backend"
     },
     {
         Name: "Git ",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        href: "https://git-scm.com/",
+        Tage: "Version Controle"
     },
     {
         Name: "Github",
-        Logo: "/Logos/Github.svg",
+        ImageURL: "/Logos/Github.svg",
+        href: "https://github.com",
+        Tage: "Software"
     },
     {
         Name: "Npm ",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+        href: "https://npmjs.com",
+        Tage: "Package Manager"
     },
     {
         Name: "Yarn",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
+        href: "https://yarnpkg.com",
+        Tage: "Package Manager"
     },
     {
         Name: "TailwindCSS",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        href: "https://tailwindcss.com",
+        Tage: "CSS Framework"
     },
     {
         Name: "Redux",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        href: "https://redux.js.org/",
+        Tage: "G State Manager"
     },
     {
-        Name: "MarkDown",
-        Logo: "/Logos/MDX.svg",
+        Name: "MDX",
+        ImageURL: "/Logos/MDX.svg",
+        href: "https://www.markdownguide.org/",
+        Tage: "Extention"
     },
     {
         Name: "Vite ",
-        Logo: "/Logos/vite.svg",
+        ImageURL: "/Logos/vite.svg",
+        href: "https://vite.dev",
+        Tage: "Framework"
     },
     {
-        Name: "React-router-dom ",
-        Logo: "/Logos/react-router-mark-color-inverted.svg",
+        Name: "React-router ",
+        ImageURL: "/Logos/react-router-mark-color-inverted.svg",
+        href: "https://reactrouter.com/en/main",
+        Tage: "SPA Routing"
     },
     {
         Name: "Vitest",
-        Logo: "/Logos/vitest.svg"
+        ImageURL: "/Logos/vitest.svg",
+        href: "https://vitest.dev/",
+        Tage: "Testing"
     },
     {
         Name: "Jest",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+        href: "https://jestjs.io/",
+        Tage: "Testing"
     },
     {
         Name: "VSCode",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        href: "https://code.visualstudio.com/",
+        Tage: "Code Editor"
     },
     {
         Name: "Figma ",
-        Logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        href: "https://figma.com",
+        Tage: "Design Tool"
     },
     {
         Name: "ShadCN-UI",
-        Logo: "/Logos/ShadCn.svg",
+        ImageURL: "/Logos/ShadCn.svg",
+        href: "https://ui.shadcn.com/",
+        Tage: "UI Library"
     },
 ];

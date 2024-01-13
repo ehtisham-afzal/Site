@@ -4,25 +4,20 @@ const NaveBarMobile = lazy(() => import("./NaveBarMobile"));
 const NaveBarDesktop = lazy(() => import("./NaveBarDesktop"));
 
 const Nav = () => {
-  const [isClient, setIsClient] = useState(false);
-  const [width, setWidth] = useState(
-    typeof window !== undefined ? window.innerWidth : 0
-  );
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
-    setIsClient(true);
+    handleResize(); // Call the handler right away to set the initial state
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isMobile = width < 640 && width > 0;
-  if (!isClient) {
-    return null;
-  } else if (isClient && !isMobile) {
-    return <NaveBarDesktop />;
-  } else if (isMobile) {
+  const isMobile = width <= 640;
+  if (isMobile) {
     return <NaveBarMobile />;
+  } else {
+    return <NaveBarDesktop />;
   }
 };
 

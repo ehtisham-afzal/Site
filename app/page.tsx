@@ -1,11 +1,4 @@
 import Image from "next/image";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { AppLogos } from "@/lib/Data";
 import MainPageNav from "@/components/MainPageNav";
 
 export default function Home() {
@@ -63,26 +56,7 @@ export default function Home() {
       <h2 className="my-12 text-3xl font-semibold leading-9 tracking-tight text-primary">
         TechStack
       </h2>
-      <div className="self-center grid flex-wrap w-full grid-flow-dense grid-cols-4 sm:grid-cols-5 gap-2 justify-stretch h-fit mb-10">
-        {AppLogos.map((logo) => (
-          <TooltipProvider key={logo.Name}>
-            <Tooltip>
-              <TooltipTrigger>
-                <Image
-                  width={1}
-                  height={1}
-                  alt={`${logo.Name} Logo`}
-                  className="border w-full h-full p-4 object-cover rounded-lg backdrop-filter bg-background/50 border-primary shadow-sm hover:shadow-md"
-                  src={logo.Logo}
-                />
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>{logo.Name}</p>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        ))}
-      </div>
+      
     </main>
   );
 }

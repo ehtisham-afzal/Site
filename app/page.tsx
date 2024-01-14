@@ -1,5 +1,4 @@
 import Image from "next/image";
-import MainPageNav from "@/components/MainPageNav";
 
 export default function Home() {
   return (
@@ -25,7 +24,6 @@ export default function Home() {
         Next.js, and Node.js. I love building Web-Applications that are
         user-friendly, simple and delightful. ✨
       </p>
-      <MainPageNav />
 
       <h2 className="text-3xl font-semibold leading-9 my-10">Projects</h2>
       <div className="grid sm:grid-flow-col sm:grid-cols-2 gap-2 w-full sm:h-45">

@@ -1,7 +1,6 @@
 "use client";
-import React, { lazy, useState, useEffect } from "react";
-const NaveBarMobile = lazy(() => import("./NaveBarMobile"));
-const NaveBarDesktop = lazy(() => import("./NaveBarDesktop"));
+import dynamic from "next/dynamic";
+import React, { useState, useEffect } from "react";
 
 const Nav = () => {
   const [width, setWidth] = useState(0);
@@ -9,7 +8,7 @@ const Nav = () => {
   const [IsCleint, setIsCleint] = useState(false);
 
   useEffect(() => {
-    setIsCleint(true)
+    setIsCleint(true);
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
     handleResize(); // Call the handler right away to set the initial state
@@ -18,8 +17,10 @@ const Nav = () => {
 
   const isMobile = width <= 640 && width !== 0;
   if (IsCleint && isMobile) {
+    const NaveBarMobile = dynamic(() => import("./NaveBarMobile"));
     return <NaveBarMobile />;
   } else if (IsCleint && !isMobile) {
+    const NaveBarDesktop = dynamic(() => import("./NaveBarDesktop"));
     return <NaveBarDesktop />;
   } else {
     return null;

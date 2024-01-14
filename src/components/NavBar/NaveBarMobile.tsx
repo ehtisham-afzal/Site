@@ -2,7 +2,7 @@ import React from "react";
 
 const NaveBarMobile = () => {
   return (
-    <div className="flex h-16 w-[68] items-center justify-between fixed bottom-8 right-4 left-4 z-50 rounded-2xl border-[1px] border-onyx/30 bg-onyx/30 px-4 backdrop-blur-lg dark:border-card-border/60 dark:bg-[#18181D]/30">
+    <div className="flex h-16 w-[68] items-center justify-between fixed bottom-8 animate-nav-up right-4 left-4 z-50 rounded-2xl border border-primary/20 bg-background/50 px-4 backdrop-blur-lg ">
       <nav className="w-full">
         <ul className="flex items-center justify-between gap-4">
           <li className="group flex flex-1 items-center justify-center rounded-lg bg-transparent text-light-gray hover:bg-black/30 dark:hover:bg-white/10">

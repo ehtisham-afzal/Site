@@ -152,6 +152,12 @@ export const AppLogos = [
         Tage: "CSS Framework"
     },
     {
+        Name: "Framer-Motion",
+        ImageURL: "/Logos/Framer-motion.svg",
+        href: "https://framer.com/motion",
+        Tage: "Animation"
+    },
+    {
         Name: "Redux",
         ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
         href: "https://redux.js.org/",

@@ -17,8 +17,7 @@ const TechCard = ({
     <Card
       // data-glow
       aria-label={Name}
-      className="group relative flex items-center justify-center gap-4 rounded-3xl border p-4 transition duration-300 md:h-[300px] md:p-6 overflow-hidden hover:bg-primary-foreground"
-      // href={href}
+      className="group relative flex items-center justify-center gap-4 rounded-2xl md:rounded-3xl  p-4 transition duration-300 md:h-[300px] md:p-6 overflow-hidden hover:bg-primary-foreground"
     >
       {/* Side glow Effect */}
       <span className="absolute w-px left-0 top-[50%] h-[40%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0" />

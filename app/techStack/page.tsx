@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       {/* Header */}
-      <header className=" mb-16 mt-52">
+      <header className=" mb-16 mt-36 md:mt-52">
         <h1 className=" break-words text-primary m-1 text-3xl font-bold leading-tight tracking-tight md:text-6xl lg:leading-[1.1]">
           Tech Stack
         </h1>

@@ -4,6 +4,7 @@ import "@/Styles/globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Nav from "@/components/NavBar/Nav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        style={{
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "top",
+        }}
         className={cn(
-          "min-h-screen bg-background font-sans w-full antialiased p-0 px-4 m-0 flex  justify-center items-center text-primary",
+          "min-h-screen bg-background bg-[url(/BackgroundGradient.svg)] font-sans w-full antialiased p-0 px-4 m-0 flex  justify-center items-center text-primary",
           fontSans.variable
         )}
       >
@@ -32,6 +37,7 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="system">
             <Nav />
             {children}
+            <Footer />
           </ThemeProvider>
         </div>
       </body>

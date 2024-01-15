@@ -57,21 +57,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.portrait-radient {
-  background-image: radial-gradient(
-    48.31% 55.24% at 50.54% 40.52%,
-    hsla(0, 0%, 98%, 0) 0,
-    #fff 100%
-  );
-}
-
-@media (prefers-color-sheme: dark) {
-  .portrait-radient {
-    background-image: radial-gradient(
-      48.31% 55.24% at 50.54% 40.52%,
-      hsla(0, 0%, 98%, 0) 0,
-      #0d0d0d 100%
-    );
-  }
-}

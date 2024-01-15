@@ -1,6 +1,6 @@
 import TechCard from "@/components/Cards/TechCard";
 import { Separator } from "@/components/ui/separator";
-import { AppLogos } from "@/lib/Data";
+import { AppLogos , CategorizedAppLogos} from "@/lib/Data";
 import React from "react";
 
 const page = () => {

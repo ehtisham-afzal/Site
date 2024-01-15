@@ -42,6 +42,16 @@ export const LittleLemonStack = [
     },
 ]
 
+export const Projects = [
+    {
+        Name: "Little Lemon",
+        Description: "LittleLemon is a mobile-first full-stack web application that I developed using the MERN stack (MongoDB, Express, React, and Node.js). I learned how to build the front end of this application from the Meta-Front-End Developer Professional Certificate course on Coursera, taught by meta engineers. This e-commerce application has many features, such as a table booking form that could store the booking data in a MongoDB database and use it to avoid table overbooking a universal cart, a smooth shopping experience, a product showcase, and support pages. I created this application from scratch to demonstrate my skills and knowledge in front-end development.",
+        ProjectIconUrl: "/Projects/LittleLemon.svg",
+        ProjectUrl: "https://littlelemon-sham.vercel.app",
+        ProjectImageUrl: "/Projects/LittleLemon.png"
+    }
+]
+
 export const AppLogos = [
     {
         Name: "HTML",

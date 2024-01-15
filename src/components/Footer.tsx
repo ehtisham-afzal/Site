@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container relative z-10 mt-20 flex w-full max-w-[1024px] flex-col items-start justify-between gap-12 md:h-[236px] md:flex-row">
         <div className="flex h-full flex-col justify-between">
           <svg
-            className="text-primary"
+            className="text-foreground"
             width="82"
             height="65"
             viewBox="0 0 82 65"
@@ -34,23 +34,13 @@ const Footer = () => {
                 </a>
               </li>
               <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/work">
-                  Work
+                <a className="transition-colors duration-150" href="/contact">
+                  Contact
                 </a>
               </li>
               <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <a className="transition-colors duration-150" href="/uses">
                   Tech Stack
-                </a>
-              </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/bookshelf">
-                  Bookshelf
-                </a>
-              </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/contact">
-                  Contact
                 </a>
               </li>
             </ul>
@@ -62,7 +52,7 @@ const Footer = () => {
                 <a
                   className="transition-colors duration-150"
                   target="_blank"
-                  href="https://www.linkedin.com/in/eihab-khan/"
+                  href="https://www.linkedin.com/in/ehtisham-afzal"
                 >
                   LinkedIn
                 </a>
@@ -86,7 +76,7 @@ const Footer = () => {
                 <a
                   className="transition-colors duration-150"
                   target="_blank"
-                  href="https://github.com/eihabkhan"
+                  href="https://github.com/EHTISHAM-Afzal"
                 >
                   GitHub
                 </a>
@@ -110,33 +100,9 @@ const Footer = () => {
                 <a
                   className="transition-colors duration-150"
                   target="_blank"
-                  href="https://twitter.com/eihab_khan"
+                  href="https://twitter.com/EHTISHAMoo7"
                 >
                   X (Twitter)
-                </a>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="-translate-x-2 translate-y-2 rotate-45 text-onyx opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 dark:text-white"
-                >
-                  <path d="m5 12 7-7 7 7"></path>
-                  <path d="M12 19V5"></path>
-                </svg>
-              </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a
-                  className="transition-colors duration-150"
-                  target="_blank"
-                  href="https://discord.com/users/eihabkhan"
-                >
-                  Discord
                 </a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +123,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="absolute inset-x-0 bottom-0 h-[550px]">
-        <div className="relative h-full w-full overflow-hidden"></div>
       </div>
     </footer>
   );

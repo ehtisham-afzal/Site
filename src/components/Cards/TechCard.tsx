@@ -17,7 +17,7 @@ const TechCard = ({
     <Card
       // data-glow
       aria-label={Name}
-      className="group relative flex items-center justify-center gap-4 rounded-2xl md:rounded-3xl  p-4 transition duration-300 md:h-[300px] md:p-6 overflow-hidden hover:bg-primary-foreground"
+      className="group relative flex items-center justify-center gap-4 rounded-2xl md:rounded-3xl  p-4 transition duration-100 md:h-[300px] md:p-6 overflow-hidden hover:bg-card-foreground/10"
     >
       {/* Side glow Effect */}
       <span className="absolute w-px left-0 top-[50%] h-[40%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0" />
@@ -35,7 +35,7 @@ const TechCard = ({
       <a
         target="_blank"
         href={href}
-        className="absolute right-6 top-6 hidden -translate-x-2 translate-y-2 rotate-45 text-dark-gray opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 dark:text-white md:inline-block"
+        className="absolute right-6 top-6 hidden -translate-x-2 translate-y-2 rotate-45 opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 dark:text-white md:inline-block"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -53,12 +53,12 @@ const TechCard = ({
         </svg>
       </a>
       <div className="relative flex flex-1 items-center justify-between md:absolute md:inset-x-6 md:bottom-6">
-        <p className="text-base font-semibold dark:text-white md:text-xl">
+        <p className="text-base font-semibold md:text-xl">
           {Name}
         </p>
         <span
           data-glow
-          className="inline-block rounded-full border-[1px] border-light-card-border bg-white/50 px-3 py-[6px] text-xs text-dark-gray dark:border-[#272525] dark:bg-transparent md:text-sm"
+          className="inline-block rounded-full border-[1px] px-3 py-[6px] text-xs md:text-sm"
         >
           {Tage}
         </span>

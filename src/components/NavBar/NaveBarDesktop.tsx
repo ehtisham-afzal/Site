@@ -14,7 +14,7 @@ const NaveBarDesktop = () => {
         <div className="flex items-center gap-10">
           <Link
             prefetch={false}
-            className="block h-10 py-2 transition-colors text-primary hover:text-primary/50"
+            className="block h-10 py-2 transition-colors text-foreground hover:text-foreground/50"
             href="/"
           >
             <svg
@@ -46,7 +46,7 @@ const NaveBarDesktop = () => {
                 <li>
                   <Link
                     prefetch={false}
-                    className="block py-2 transition-colors text-primary hover:text-primary/50"
+                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/aboute"
                   >
                     Aboute
@@ -55,7 +55,7 @@ const NaveBarDesktop = () => {
                 <li>
                   <Link
                     prefetch={false}
-                    className="block py-2 transition-colors text-primary hover:text-primary/50"
+                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/contact"
                   >
                     Contact
@@ -64,7 +64,7 @@ const NaveBarDesktop = () => {
                 <li>
                   <Link
                     prefetch={false}
-                    className="block py-2 transition-colors text-primary hover:text-primary/50"
+                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/techStack"
                   >
                     TechStack
@@ -76,7 +76,7 @@ const NaveBarDesktop = () => {
           </nav>
         </div>
         <div className="flex items-center gap-4">
-          <div className="flex gap-6 text-primary">
+          <div className="flex gap-6 text-foreground">
             <a
               className="w-7 flex items-center"
               target="_blank"

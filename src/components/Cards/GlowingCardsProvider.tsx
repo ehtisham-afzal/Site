@@ -2,7 +2,7 @@
 import React, { ReactNode, useEffect } from "react";
 import "@/Styles/GlowingCard.css";
 
-const GlowingCards = ({ children }: { children: ReactNode }) => {
+const GlowingCardsProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const syncPointer = ({ x, y }: { x: any; y: any }) => {
       document.documentElement.style.setProperty("--x", x.toFixed(2));
@@ -25,4 +25,4 @@ const GlowingCards = ({ children }: { children: ReactNode }) => {
   return <section className=" space-x-1 space-y-1">{children}</section>;
 };
 
-export default GlowingCards;
+export default GlowingCardsProvider;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Separator } from "./ui/separator";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -29,19 +30,31 @@ const Footer = () => {
             <p className="font-bold text-onyx dark:text-white">Links</p>
             <ul className="flex flex-col gap-4">
               <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/about">
+                <Link
+                  prefetch={false}
+                  className="transition-colors duration-150"
+                  href="/Aboute"
+                >
                   About
-                </a>
+                </Link>
               </li>
               <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/contact">
+                <Link
+                  prefetch={false}
+                  className="transition-colors duration-150"
+                  href="/Contact"
+                >
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a className="transition-colors duration-150" href="/uses">
+                <Link
+                  prefetch={false}
+                  className="transition-colors duration-150"
+                  href="/TechStack"
+                >
                   Tech Stack
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

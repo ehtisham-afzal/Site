@@ -1,6 +1,7 @@
+import GlowingCardsProvider from "@/components/Cards/GlowingCardsProvider";
 import TechCard from "@/components/Cards/TechCard";
 import { Separator } from "@/components/ui/separator";
-import { AppLogos , CategorizedAppLogos} from "@/lib/Data";
+import { AppLogos, CategorizedAppLogos } from "@/lib/Data";
 import React from "react";
 
 const page = () => {
@@ -21,17 +22,19 @@ const page = () => {
       <h2 className=" text-foreground md:text-4xl scroll-m-20 text-2xl font-bold tracking-tight">
         Dev & Design
       </h2>
-      <div className="w-full my-5 grid grid-cols-1 gap-4 md:my-8 md:grid-cols-3">
-        {AppLogos.map((logo) => (
-          <TechCard
-            key={logo.Name}
-            ImageURL={logo.ImageURL}
-            href={logo.href}
-            Name={logo.Name}
-            Tage={logo.Tage}
-          />
-        ))}
-      </div>
+      <GlowingCardsProvider>
+        <div className="w-full my-5 grid grid-cols-1 gap-4 md:my-8 md:grid-cols-3">
+          {AppLogos.map((logo) => (
+            <TechCard
+              key={logo.Name}
+              ImageURL={logo.ImageURL}
+              href={logo.href}
+              Name={logo.Name}
+              Tage={logo.Tage}
+            />
+          ))}
+        </div>
+      </GlowingCardsProvider>
     </div>
   );
 };

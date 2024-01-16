@@ -1,23 +1,23 @@
-a {
+.glow {
   --backdrop: hsl(0 0% 60% / 0.12);
-  --radius: 23;
+  --radius: 14;
   --border: 2;
   --backup-border: var(--backdrop);
   --size: 200;
 }
 
-a:first-of-type {
+.glow:first-of-type {
   --base: 80;
   --spread: 500;
   --outer: 1;
 }
-a:last-of-type {
+.glow:last-of-type {
   --outer: 1;
   --base: 220;
   --spread: 200;
 }
 
-a {
+.glow {
   border: 1px solid hsl(0 0% 100% / 0.15);
   backdrop-filter: blur(calc(var(--cardblur, 5) * 1px));
   /* For demo purposes. Means you get the effect on mobile */

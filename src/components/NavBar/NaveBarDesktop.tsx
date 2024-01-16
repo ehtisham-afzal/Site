@@ -48,7 +48,7 @@ const NaveBarDesktop = () => {
                   <Link
                     prefetch={false}
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/aboute"
+                    href="/Aboute"
                   >
                     Aboute
                   </Link>
@@ -57,7 +57,7 @@ const NaveBarDesktop = () => {
                   <Link
                     prefetch={false}
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/contact"
+                    href="/Contact"
                   >
                     Contact
                   </Link>
@@ -66,7 +66,7 @@ const NaveBarDesktop = () => {
                   <Link
                     prefetch={false}
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/techStack"
+                    href="/TechStack"
                   >
                     TechStack
                   </Link>

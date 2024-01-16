@@ -3,7 +3,6 @@ import React from "react";
 import ModeToggleButton from "../ModeToggleButton";
 
 const NaveBarMobile = () => {
-  
   return (
     <header className="flex h-16 w-11/12 items-center justify-between fixed bottom-8 right-[4.3%]  z-50 rounded-2xl border border-primary/20 bg-background/50 px-4 backdrop-blur-lg md:hidden ">
       <nav className="w-full">
@@ -32,7 +31,7 @@ const NaveBarMobile = () => {
           <li className="group flex flex-1 items-center justify-center rounded-md bg-transparent  text-light-gray hover:bg-black/30 dark:hover:bg-white/10">
             <Link
               className="flex w-full items-center justify-center py-2"
-              href="/about"
+              href="/Aboute"
               prefetch={false}
             >
               <svg
@@ -55,7 +54,7 @@ const NaveBarMobile = () => {
           <li className="group flex flex-1 items-center justify-center rounded-md bg-transparent  hover:bg-black/30 dark:hover:bg-white/10">
             <Link
               className="flex w-full items-center justify-center py-2"
-              href="/contact"
+              href="/Contact"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +75,7 @@ const NaveBarMobile = () => {
           <li className="group flex flex-1 items-center justify-center rounded-md bg-transparent text-light-gray hover:bg-black/30 dark:hover:bg-white/10">
             <Link
               className="flex w-full items-center justify-center py-2"
-              href="/techStack"
+              href="/TechStack"
               prefetch={false}
             >
               <svg
@@ -91,7 +90,7 @@ const NaveBarMobile = () => {
             </Link>
           </li>
           <li className="group flex flex-1 items-center justify-center py-2 rounded-md bg-transparent text-light-gray hover:bg-black/30 dark:hover:bg-white/10">
-            <ModeToggleButton/>
+            <ModeToggleButton />
           </li>
         </ul>
       </nav>

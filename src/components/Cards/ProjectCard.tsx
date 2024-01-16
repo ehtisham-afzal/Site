@@ -17,7 +17,7 @@ const ProjectCard = ({
   ProjectImageUrl: string;
 }) => {
   return (
-    <Card className="relative overflow-hidden rounded-3xl p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0">
+    <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0">
       <div className="flex h-full w-full flex-col gap-4 lg:w-1/2">
         <Link prefetch={false} className="w-fit" href={`/projects/${Name}`}>
           <Image
@@ -65,7 +65,7 @@ const ProjectCard = ({
       <Link
         prefetch={false}
         href={`/projects/${Name}`}
-        className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-200 ease-out hover:scale-110"
+        className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-300 ease-out hover:scale-110"
       >
         <Image
           alt={`${Name} Image`}

@@ -22,19 +22,17 @@ const page = () => {
       <h2 className=" text-foreground md:text-4xl scroll-m-20 text-2xl font-bold tracking-tight">
         Dev & Design
       </h2>
-      <GlowingCardsProvider>
-        <div className="w-full my-5 grid grid-cols-1 gap-4 md:my-8 md:grid-cols-3">
-          {AppLogos.map((logo) => (
-            <TechCard
-              key={logo.Name}
-              ImageURL={logo.ImageURL}
-              href={logo.href}
-              Name={logo.Name}
-              Tage={logo.Tage}
-            />
-          ))}
-        </div>
-      </GlowingCardsProvider>
+      <div className="w-full my-5 grid grid-cols-1 gap-4 md:my-8 md:grid-cols-3">
+        {AppLogos.map((logo) => (
+          <TechCard
+            key={logo.Name}
+            ImageURL={logo.ImageURL}
+            href={logo.href}
+            Name={logo.Name}
+            Tage={logo.Tage}
+          />
+        ))}
+      </div>
     </div>
   );
 };

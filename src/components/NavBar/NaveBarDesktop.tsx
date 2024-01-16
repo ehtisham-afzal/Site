@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const NaveBarDesktop = () => {
   return (
-    <div className="absolute top-8 left-0 right-0 animate-nav-down px-4">
+    <div className="absolute top-8 hidden md:block left-0 right-0 px-4">
       <div className="container mx-auto flex h-16 w-full max-w-[1024px] items-center justify-between rounded-xl bg-secondary/50 px-4 backdrop-blur-md border ">
         <div className="flex items-center gap-10">
           <Link

@@ -18,7 +18,7 @@ const NaveBarDesktop = () => {
             href="/"
           >
             <svg
-            className="w-full h-full"
+              className="w-full h-full"
               width="82"
               height="65"
               viewBox="0 0 82 65"
@@ -30,6 +30,7 @@ const NaveBarDesktop = () => {
                 fill="currentColor"
               />
             </svg>
+            <span className="sr-only">Home</span>
           </Link>
           <nav
             aria-label="Main"

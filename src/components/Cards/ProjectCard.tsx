@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <Card className="relative overflow-hidden rounded-3xl p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0">
-      <div className="flex h-full w-full flex-col gap-4 lg:w-1/2 z-20">
+      <div className="flex h-full w-full flex-col gap-4 lg:w-1/2">
         <Link prefetch={false} className="w-fit" href={`/projects/${Name}`}>
           <Image
             alt={Name}
@@ -29,14 +29,10 @@ const ProjectCard = ({
           />
         </Link>
         <p className="text-xl font-extrabold lg:text-3xl">{Name}</p>
-        <p className="flex-1 text-muted-foreground text-pretty">
+        <p className="flex-1 text-muted-foreground text-pretty z-10">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
-            <Link
-              prefetch={false}
-              className="cursor-pointer rounded-lg items-center inline-flex font-medium group mt-6 justify-start gap-2 transition lg:mt-0"
-              href={`/projects/${Name}`}
-            >
+            <Link prefetch={false} href={`/projects/${Name}`}>
               ... Learn More
             </Link>
           ) : (
@@ -66,19 +62,19 @@ const ProjectCard = ({
           </svg>
         </a>
       </div>
-      <a
-        target="_blank"
-        className=" absolute bottom-0 h-full -right-32 lg:flex items-center justify-center hidden object-cover overflow-hidden"
-        href={ProjectUrl}
+      <Link
+        prefetch={false}
+        href={`/projects/${Name}`}
+        className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-200 ease-out hover:scale-110"
       >
         <Image
-          alt={`${Name} Icon`}
+          alt={`${Name} Image`}
           width="457"
           height="565"
-          className="w-10/12 transition duration-300 ease-out hover:scale-110 rounded-xl"
+          className="w-full h-full object-cover rounded-xl"
           src={ProjectImageUrl}
         />
-      </a>
+      </Link>
     </Card>
   );
 };

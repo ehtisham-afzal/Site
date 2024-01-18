@@ -24,12 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        style={{
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "top",
-        }}
         className={cn(
-          "min-h-screen bg-background bg-[url(/BackgroundGradient.svg)] font-sans w-full antialiased p-0 px-4 m-0 flex  justify-center items-center text-foreground",
+          "min-h-screen [backgroundRepeat:no-repeat] [backgroundPosition:top] bg-background bg-[url(/BackgroundGradient.svg)] font-sans text-pretty w-full antialiased p-0 px-4 m-0 flex  justify-center items-center text-foreground",
           fontSans.variable
         )}
       >

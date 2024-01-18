@@ -8,12 +8,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="w-full mt-36 min-h-screen md:mt-56">
-      <section className="flex relative items-center justify-end w-full md:min-h-96 h-fit py-2">
-        <div className="z-10 relative md:absolute left-0 top-0 md:w-7/12 flex flex-col gap-6 overflow-hidden text-pretty">
+    <main className="w-full min-h-screen mt-36 md:mt-56">
+      <section className="relative flex items-center justify-end w-full py-2 md:min-h-96 h-fit">
+        <div className="relative top-0 left-0 z-10 flex flex-col gap-6 overflow-hidden md:absolute md:w-7/12 text-pretty">
           <div>
             <Image
-              className="w-24 h-24 rounded-full border-4 object-cover mb-3 md:hidden"
+              className="object-cover w-24 h-24 mb-3 border-4 rounded-full md:hidden"
               width={80}
               height={80}
               src="/sham2.png"
@@ -22,18 +22,18 @@ export default function Home() {
             <h1 className="text-[46px] font-extrabold leading-[120%] text-foreground/50 md:text-left md:text-[80px]">
               I&apos;m <span className="text-foreground">Ehtisham</span>
             </h1>
-            <p className=" text-lg text-muted-foreground md:text-left md:text-2xl text-pretty">
+            <p className="text-lg text-muted-foreground md:text-left md:text-2xl text-pretty">
               A front-end developer, based in Pakistan. specializing in
               full-stack web applications using JavaScript, TypeScript, React,
               Next.js, and Node.js. I love building Web-Applications that are
               user-friendly, simple and delightful. ✨
             </p>
           </div>
-          <div className="mt-10 flex w-full flex-col items-center gap-4 md:flex-row">
+          <div className="flex flex-col items-center w-full gap-4 mt-10 md:flex-row">
             <Button
               size="lg"
               variant="default"
-              className="w-full md:w-44 h-14 text-xl"
+              className="w-full text-xl md:w-44 h-14"
             >
               <a target="_blank" href="https://read.cv/ehtisham">
                 See my resume
@@ -42,7 +42,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="secondary"
-              className="w-full md:w-44 h-14 text-xl"
+              className="w-full text-xl md:w-44 h-14"
             >
               <Link prefetch={false} href="/Contact">
                 Get in touch
@@ -55,14 +55,12 @@ export default function Home() {
           alt="Ehtisham Afzal"
           width="280"
           height="380"
-          decoding="async"
-          data-nimg="1"
-          className="hidden object-cover h-full w-4/12 backdrop-blur-sm bg-secondary/50 border absolute right-0 rounded-2xl md:block p-0"
+          className="absolute right-0 hidden object-cover w-4/12 h-full p-0 border rounded-2xl md:block"
         />
       </section>
 
       <section className="w-full mt-20 md:mt-40">
-        <h2 className=" text-foreground text-3xl md:text-5xl scroll-m-20 font-bold tracking-tight mb-12">
+        <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-5xl scroll-m-20">
           Selected work
         </h2>
         <div className="w-full space-y-4 md:space-y-8">
@@ -79,11 +77,11 @@ export default function Home() {
         </div>
       </section>
       <section className="w-full mt-20 md:mt-40">
-        <h2 className=" text-foreground text-3xl md:text-5xl scroll-m-20 font-bold tracking-tight mb-12">
+        <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-5xl scroll-m-20">
           Get to know me
         </h2>
 
-        <ul className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <ul className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2">
           <AboutMePageCard
             Title="About me"
             Description="Who i am and what i do"
@@ -98,12 +96,12 @@ export default function Home() {
           />
         </ul>
       </section>
-      <section className="relative z-10 my-28 flex flex-col items-center justify-between gap-10 lg:flex-row">
+      <section className="relative z-10 flex flex-col items-center justify-between gap-10 my-28 lg:flex-row">
         <div>
-          <h2 className="text-center text-3xl font-bold lg:text-left lg:text-5xl">
+          <h2 className="text-3xl font-bold text-center lg:text-left lg:text-5xl">
             Let’s work together
           </h2>
-          <p className="mt-4 text-center text-xl text-muted-foreground lg:text-left text-pretty">
+          <p className="mt-4 text-xl text-center text-muted-foreground lg:text-left text-pretty">
             Want to discuss an opportunity to create something great
             <br className="hidden lg:inline-block" /> I’m ready when you are.
           </p>

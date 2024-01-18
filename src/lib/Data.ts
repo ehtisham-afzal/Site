@@ -176,7 +176,7 @@ export const AppLogos = [
     {
         Name: "MDX",
         ImageURL: "/Logos/MDX.svg",
-        href: "https://www.markdownguide.org/",
+        href: "https://mdxjs.com/",
         Tage: "Extention"
     },
     {

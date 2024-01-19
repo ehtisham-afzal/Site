@@ -16,7 +16,7 @@ const TechCard = ({
   return (
     <Card
       aria-label={Name}
-      className="group relative flex items-center justify-center gap-4    p-4 transition duration-100 md:h-[300px] md:p-6  hover:bg-card-foreground/10"
+      className="group relative flex items-center justify-center gap-4  p-4 transition duration-100 md:h-[300px] md:p-6  hover:bg-card-foreground/10"
     >
       {/* Side glow Effect */}
       <span className="absolute w-px left-0 top-[50%] h-[40%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0" />
@@ -51,7 +51,7 @@ const TechCard = ({
           <path d="M12 19V5"></path>
         </svg>
       </a>
-      <div className="relative flex flex-1 items-center justify-between md:absolute md:inset-x-6 md:bottom-6">
+      <div className="relative flex items-center justify-between flex-1 md:absolute md:inset-x-6 md:bottom-6">
         <p className="text-base font-semibold md:text-xl">
           {Name}
         </p>

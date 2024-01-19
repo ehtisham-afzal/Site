@@ -55,7 +55,7 @@ export default function Home() {
           alt="Ehtisham Afzal"
           width="280"
           height="380"
-          className="absolute right-0 hidden object-cover w-4/12 h-full p-0 border rounded-2xl md:block"
+          className="absolute right-0 hidden object-cover w-4/12 h-full p-0 border backdrop-blur-sm bg-secondary/50 rounded-2xl md:block"
         />
       </section>
 

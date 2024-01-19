@@ -138,7 +138,7 @@ const page = () => {
         <div className="col-span-12 -order-1 md:order-2 md:col-span-4">
           <div className="relative flex justify-center mb-20 group">
             <Image
-              className="relative z-20 block w-fit overflow-hidden rounded-2xl border-[1px] border-card-border"
+              className="relative z-20 block w-fit overflow-hidden rounded-2xl border-[1px] border-card-border backdrop-blur-sm bg-secondary/50"
               alt="Portrait of Eihab Khan"
               width="344"
               height="443"

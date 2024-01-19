@@ -17,7 +17,7 @@ const AnotherPageCard = ({
     <>
       <Link
       prefetch={false}
-        className="group flex flex-col items-center justify-between relative rounded-xl border bg-card text-card-foreground shadow pt-16 transition"
+        className="relative flex flex-col items-center justify-between pt-16 transition border shadow bg-card group rounded-3xl text-card-foreground"
         href={PageUrl}
       >
         {/* <div className="absolute -top-[33px] right-10 mt-px flex h-8 items-end overflow-hidden">
@@ -27,7 +27,7 @@ const AnotherPageCard = ({
           </div>
         </div> */}
         <div className="">
-          <p className="text-center text-2xl font-bold">
+          <p className="text-2xl font-bold text-center">
             {Title}
           </p>
           <p className="mt-2 text-center text-muted-foreground">{Description}</p>
@@ -36,7 +36,7 @@ const AnotherPageCard = ({
           alt={Title}
           width="304"
           height="165"
-          className=" w-8/12 transition duration-500 ease-out group-hover:scale-105 origin-center mt-4"
+          className="w-8/12 mt-4 transition duration-500 ease-out origin-center group-hover:scale-105"
           src={ImageUrl}
         />
       </Link>

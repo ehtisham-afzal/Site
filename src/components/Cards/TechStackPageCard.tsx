@@ -17,7 +17,7 @@ const TechStackPageCard = ({
     <>
       <Link
       prefetch={false}
-        className="group h-full min-h-[26rem] lg:min-h-[30rem] flex flex-col items-center justify-between relative rounded-xl border bg-card text-card-foreground shadow pt-16 transition overflow-hidden"
+        className="group h-full min-h-[26rem] lg:min-h-[30rem] flex flex-col items-center justify-between rounded-3xl bg-card relative border text-card-foreground shadow pt-16 transition overflow-hidden"
         href={PageUrl}
       >
         {/* <div className="absolute -top-[33px] right-10 mt-px flex h-8 items-end overflow-hidden">
@@ -27,7 +27,7 @@ const TechStackPageCard = ({
           </div>
         </div> */}
         <div className="">
-          <p className="text-center text-2xl font-bold">{Title}</p>
+          <p className="text-2xl font-bold text-center">{Title}</p>
           <p className="mt-2 text-center text-muted-foreground">
             {Description}
           </p>
@@ -36,7 +36,7 @@ const TechStackPageCard = ({
           alt={Title}
           width="415"
           height="265"
-          className="w-full absolute bottom-0 top-32 transition duration-500 ease-out group-hover:scale-105 origin-center mt-4 select-none"
+          className="absolute bottom-0 w-full mt-4 transition duration-500 ease-out origin-center select-none top-32 group-hover:scale-105"
           src={ImageUrl}
         />
       </Link>

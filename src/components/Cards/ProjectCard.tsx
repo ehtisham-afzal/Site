@@ -17,8 +17,8 @@ const ProjectCard = ({
   ProjectImageUrl: string;
 }) => {
   return (
-    <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0">
-      <div className="flex h-full w-full flex-col gap-4 lg:w-1/2">
+    <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0 rounded-3xl bg-card">
+      <div className="flex flex-col w-full h-full gap-4 lg:w-1/2">
         <Link prefetch={false} className="w-fit" href={`/projects/${Name}`}>
           <Image
             alt={Name}
@@ -28,8 +28,8 @@ const ProjectCard = ({
             src={ProjectIconUrl}
           />
         </Link>
-        <p className="text-xl font-extrabold lg:text-3xl">{Name}</p>
-        <p className="flex-1 text-muted-foreground text-pretty z-10">
+        <p className="text-2xl font-extrabold lg:text-4xl">{Name}</p>
+        <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
             <Link prefetch={false} href={`/projects/${Name}`}>
@@ -40,7 +40,7 @@ const ProjectCard = ({
           )}
         </p>
         <a
-          className="cursor-pointer rounded-lg items-center inline-flex font-medium group mt-6 justify-start gap-2 transition lg:mt-0"
+          className="inline-flex items-center justify-start gap-2 mt-6 font-medium transition rounded-lg cursor-pointer group lg:mt-0"
           target="_blank"
           href={ProjectUrl}
         >
@@ -71,7 +71,7 @@ const ProjectCard = ({
           alt={`${Name} Image`}
           width="457"
           height="565"
-          className="w-full h-full object-cover rounded-xl"
+          className="object-cover w-full h-full rounded-xl"
           src={ProjectImageUrl}
         />
       </Link>

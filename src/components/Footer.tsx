@@ -7,7 +7,10 @@ const Footer = () => {
     <footer className="relative mt-16 min-h-[326px] pb-32 md:pb-12">
       <Separator className="h-[1px]" />
       <div className="container relative z-10 mt-20 flex w-full max-w-[1024px] flex-col items-start justify-between gap-12 md:h-[236px] md:flex-row">
-        <div className="flex h-full flex-col justify-between">
+        <div className="flex flex-col justify-between h-full">
+        <Link
+            href="/"
+          >
           <svg
             className="text-foreground"
             width="82"
@@ -21,15 +24,16 @@ const Footer = () => {
               fill="currentColor"
             />
           </svg>
+          </Link>
           <p className="mt-10 text-sm text-onyx/60 dark:text-white/40 md:mt-0">
             ©️2024 Ehtisham Afzal. All Rights Reserved
           </p>
         </div>
-        <div className="-order-1 grid grid-cols-2 gap-10 md:order-2 md:gap-20">
+        <div className="grid grid-cols-2 gap-10 -order-1 md:order-2 md:gap-20">
           <div className="flex flex-col gap-8">
             <p className="font-bold text-onyx dark:text-white">Links</p>
             <ul className="flex flex-col gap-4">
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
                   prefetch={false}
                   className="transition-colors duration-150"
@@ -38,7 +42,7 @@ const Footer = () => {
                   About
                 </Link>
               </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
                   prefetch={false}
                   className="transition-colors duration-150"
@@ -47,7 +51,7 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
                   prefetch={false}
                   className="transition-colors duration-150"
@@ -61,7 +65,7 @@ const Footer = () => {
           <div className="flex flex-col gap-8">
             <p className="font-bold text-onyx dark:text-white">Elsewhere</p>
             <ul className="flex flex-col gap-4 text-light-gray">
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <a
                   className="transition-colors duration-150"
                   target="_blank"
@@ -85,7 +89,7 @@ const Footer = () => {
                   <path d="M12 19V5"></path>
                 </svg>
               </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <a
                   className="transition-colors duration-150"
                   target="_blank"
@@ -109,7 +113,7 @@ const Footer = () => {
                   <path d="M12 19V5"></path>
                 </svg>
               </li>
-              <li className="group flex items-center gap-2 text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
+              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <a
                   className="transition-colors duration-150"
                   target="_blank"

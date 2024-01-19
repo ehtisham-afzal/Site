@@ -13,7 +13,7 @@ export default function Home() {
         <div className="relative top-0 left-0 z-10 flex flex-col gap-6 overflow-hidden md:absolute md:w-7/12 text-pretty">
           <div>
             <Image
-              className="object-cover w-24 h-24 mb-3 border-4 rounded-full md:hidden"
+              className="object-cover w-24 h-24 mb-3 border-4 border-dashed rounded-full md:hidden"
               width={80}
               height={80}
               src="/sham2.png"
@@ -85,7 +85,7 @@ export default function Home() {
           <AboutMePageCard
             Title="About me"
             Description="Who i am and what i do"
-            PageUrl="/About"
+            PageUrl="/Aboute"
             ImageUrl="/man-avatar.svg"
           />
           <TechStackPageCard
@@ -96,7 +96,7 @@ export default function Home() {
           />
         </ul>
       </section>
-      <section className="relative z-10 flex flex-col items-center justify-between gap-10 my-28 lg:flex-row">
+      <section className="relative z-10 flex flex-col items-center justify-between gap-10 p-4 border rounded-lg my-28 lg:flex-row">
         <div>
           <h2 className="text-3xl font-bold text-center lg:text-left lg:text-5xl">
             Let’s work together

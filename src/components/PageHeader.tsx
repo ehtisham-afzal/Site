@@ -9,7 +9,7 @@ const PageHeader = ({
   Description: string;
 }) => {
   return (
-    <header className="container mb-16 mt-52">
+    <header className="pl-2 mb-16 md:container mt-52">
       <h1 className="break-words text-5xl font-bold leading-none md:text-[80px]">
         {Title}
       </h1>

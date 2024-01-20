@@ -1,5 +1,4 @@
 import PageHeader from "@/components/PageHeader";
-import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import React from "react";
 
@@ -12,8 +11,8 @@ const page = () => {
       />
 
       {/* section */}
-      <div className="container grid w-full grid-cols-1 md:grid-cols-12">
-        <div className="flex flex-col col-span-12 gap-12 md:col-span-8 md:pr-12">
+      <div className="grid w-full grid-cols-1 md:container md:grid-cols-12">
+        <div className="flex flex-col col-span-full gap-y-12 md:col-span-8 md:pr-12">
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold uppercase dark:text-medium-gray">
               Who I am

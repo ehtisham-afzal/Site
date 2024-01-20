@@ -1,3 +1,4 @@
+import PageHeader from "@/components/PageHeader";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import React from "react";
@@ -5,15 +6,10 @@ import React from "react";
 const page = () => {
   return (
     <main className="">
-      <header className="container mb-16 mt-52">
-        <h1 className="break-words text-5xl font-bold leading-none text-onyx dark:text-white md:text-[80px]">
-          A little bit about me
-        </h1>
-        <p className="mt-4 mb-16 text-base text-muted-foreground md:text-2xl">
-          Who I am and what I do.
-        </p>
-        <div className="h-[1px] w-full bg-black/10 dark:bg-white/10"></div>
-      </header>
+      <PageHeader
+        Title="A little bit about me"
+        Description="Who I am and what I do."
+      />
 
       {/* section */}
       <div className="container grid w-full grid-cols-1 md:grid-cols-12">

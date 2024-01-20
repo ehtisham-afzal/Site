@@ -28,7 +28,7 @@ const ProjectCard = ({
             src={ProjectIconUrl}
           />
         </Link>
-        <p className="text-2xl font-extrabold lg:text-4xl">{Name}</p>
+        <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
         <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (

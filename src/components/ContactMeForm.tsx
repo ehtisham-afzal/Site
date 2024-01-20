@@ -41,7 +41,11 @@ const ContactMeForm = () => {
         name="message"
         placeholder="Write your message here"
       />
-      <Button type="submit" size={"lg"} className="float-right mb-2">
+      <Button
+        type="submit"
+        size={"lg"}
+        className="float-right w-full md:w-fit md:mb-2"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

@@ -4,9 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader } from "./ui/card";
 import { Input } from "./ui/input";
 
 const CTAWhatsApp = () => {
-  const [Message, setMessage] = useState(
-    "I want to work on a project with you"
-  );
+  const [Message, setMessage] = useState("");
   return (
     <Card className="w-full my-4 rounded-2xl">
       <CardHeader className="text-lg font-bold md:text-xl">

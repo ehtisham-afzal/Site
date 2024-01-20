@@ -111,7 +111,7 @@ const page = () => {
           </div>
           <a
             className="cursor-pointer rounded-lg bg-primary text-secondary min-h-[60px] px-8 py-4 font-medium w-full border inline-flex justify-center items-center gap-2 md:hidden"
-            href="/contact"
+            href="/Contact"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

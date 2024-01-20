@@ -135,8 +135,8 @@ const page = () => {
             <Image
               className="relative z-20 block w-full overflow-hidden rounded-2xl border-[1px] border-card-border backdrop-blur-sm bg-secondary/50"
               alt="Portrait of Ehtisham Afzal"
-              width="344"
-              height="443"
+              width="320"
+              height="400"
               src="/sham2.png"
             />
           </div>

@@ -53,8 +53,8 @@ export default function Home() {
         <Image
           src="/sham2.png"
           alt="Ehtisham Afzal"
-          width="320"
-          height="400"
+          width="340"
+          height="385"
           className="absolute right-0 hidden object-cover w-4/12 h-full p-0 border backdrop-blur-sm bg-secondary/50 rounded-2xl md:block"
         />
       </section>

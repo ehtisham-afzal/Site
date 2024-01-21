@@ -8,7 +8,7 @@ const CTAWhatsApp = () => {
   return (
     <Card className="w-full my-4 rounded-2xl">
       <CardHeader className="text-lg font-bold md:text-xl">
-        Want connect or hire me as a freelancer? Lets discuss.
+        Want connect or hire me? Lets discuss.
         <CardDescription>Drop your message .</CardDescription>
       </CardHeader>
       <CardContent>
@@ -16,6 +16,8 @@ const CTAWhatsApp = () => {
           <Input
             value={Message}
             type="text"
+            required
+            minLength={4}
             placeholder="Youre message"
             className="w-full h-10 py-2 rounded-sm"
             onChange={(e) => setMessage(e.target.value)}

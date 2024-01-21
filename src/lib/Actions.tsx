@@ -15,9 +15,7 @@ const FormSchema = z.object({
   name: z
     .string()
     .min(3, { message: "Name must be greater than 3 charactors" }),
-  subject: z
-    .string()
-    .min(6, { message: "subject must be greater than 6 charactors" }),
+  subject: z.string().optional(),
   message: z.string().min(10, { message: "Please provide more information" }),
 });
 

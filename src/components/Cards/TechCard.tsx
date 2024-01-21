@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
+import { ArrowRightIcon, ArrowUpIcon } from "@heroicons/react/24/outline";
 
 const TechCard = ({
   href,
@@ -36,25 +37,10 @@ const TechCard = ({
         href={href}
         className="absolute right-6 top-6 hidden -translate-x-2 translate-y-2 rotate-45 opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 dark:text-white md:inline-block"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="m5 12 7-7 7 7"></path>
-          <path d="M12 19V5"></path>
-        </svg>
+        <ArrowUpIcon className="w-6" />
       </a>
       <div className="relative flex items-center justify-between flex-1 md:absolute md:inset-x-6 md:bottom-6">
-        <p className="text-base font-semibold md:text-xl">
-          {Name}
-        </p>
+        <p className="text-base font-semibold md:text-xl">{Name}</p>
         <span
           data-glow
           className="inline-block rounded-full border-[1px] px-3 py-[6px] text-xs md:text-sm"

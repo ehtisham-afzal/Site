@@ -14,7 +14,7 @@ const ContactMeForm = () => {
   return (
     <form action={dispatch} className="px-6 mb-4">
       <label htmlFor="email" className="flex gap-2 my-1 md:flex-row">
-        <span className="font-medium">E-mail:</span>
+        <span className="font-medium">E-mail:*</span>
         <input
           type="email"
           className="flex-1 bg-transparent focus:outline-none focus:ring-0 "
@@ -31,7 +31,7 @@ const ContactMeForm = () => {
       )}
       <Separator className="my-4" />
       <label htmlFor="name" className="flex gap-2 my-1 md:flex-row">
-        <span className="font-medium">Name:</span>
+        <span className="font-medium">Name:*</span>
         <input
           className="flex-1 bg-transparent focus:outline-none focus:ring-0 "
           placeholder="Enter your name"
@@ -55,12 +55,6 @@ const ContactMeForm = () => {
           name="subject"
         />
       </label>
-      {ErrorMessage?.error.subject && (
-        <span className="w-full flex h-5 items-center text-red-500 mb-4 whitespace-nowrap">
-          <ExclamationCircleIcon className="h-full pr-2" />
-          {ErrorMessage?.error.subject}
-        </span>
-      )}
       <Separator className="my-4" />
       {ErrorMessage?.error.message && (
         <span className="w-full flex h-5 items-center text-red-500 mb-4 whitespace-nowrap">

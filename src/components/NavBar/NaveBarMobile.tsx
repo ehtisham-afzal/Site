@@ -6,9 +6,15 @@ import {
   EnvelopeIcon as EnvelopeIconOutline,
   HomeIcon as HomeIconOutline,
   UserIcon as UserIconOutline,
+  BriefcaseIcon as BriefCaseIconOuline,
 } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
-import { EnvelopeIcon, HomeIcon, UserIcon } from "@heroicons/react/24/solid";
+import {
+  BriefcaseIcon,
+  EnvelopeIcon,
+  HomeIcon,
+  UserIcon,
+} from "@heroicons/react/24/solid";
 import { cn } from "@/lib/utils";
 
 const NaveBarMobile = () => {
@@ -41,6 +47,19 @@ const NaveBarMobile = () => {
               <UserIcon className="h-6" />
             ) : (
               <UserIconOutline className="h-6" />
+            )}
+          </Link>
+          <Link
+            className={cn(
+              "flex items-center justify-center w-full py-2 flex-1 rounded-md group text-light-gray",
+              pathName == "/Work" ? "bg-secondary-foreground/10" : null
+            )}
+            href="/Work"
+          >
+            {pathName == "/Work" ? (
+              <BriefcaseIcon className="h-6" />
+            ) : (
+              <BriefCaseIconOuline className="h-6" />
             )}
           </Link>
 

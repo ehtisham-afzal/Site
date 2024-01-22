@@ -13,7 +13,6 @@ const NaveBarDesktop = () => {
       <div className="container mx-auto flex h-16 w-full max-w-[1024px] items-center justify-between rounded-xl bg-secondary/50 px-4 backdrop-blur-md border ">
         <div className="flex items-center gap-10">
           <Link
-            
             className="block h-10 py-2 transition-colors text-foreground hover:text-foreground/50"
             href="/"
           >
@@ -39,39 +38,36 @@ const NaveBarDesktop = () => {
             className="relative flex justify-center"
           >
             <div style={{ position: "relative" }}>
-              <ul
+              <div
                 data-orientation="horizontal"
                 className="m-0 flex list-none items-center gap-10 rounded-[6px] p-1"
                 dir="ltr"
               >
-                <li>
-                  <Link
-                    
-                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/Aboute"
-                  >
-                    Aboute
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    
-                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/Contact"
-                  >
-                    Contact
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    
-                    className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                    href="/TechStack"
-                  >
-                    TechStack
-                  </Link>
-                </li>
-              </ul>
+                <Link
+                  className="block py-2 transition-colors text-foreground hover:text-foreground/50"
+                  href="/Aboute"
+                >
+                  Aboute
+                </Link>
+                <Link
+                  className="block py-2 transition-colors text-foreground hover:text-foreground/50"
+                  href="/Work"
+                >
+                  Work
+                </Link>
+                <Link
+                  className="block py-2 transition-colors text-foreground hover:text-foreground/50"
+                  href="/Contact"
+                >
+                  Contact
+                </Link>
+                <Link
+                  className="block py-2 transition-colors text-foreground hover:text-foreground/50"
+                  href="/TechStack"
+                >
+                  TechStack
+                </Link>
+              </div>
             </div>
             <div className="absolute right-0 top-full flex w-[150px] justify-center perspective-[2000px]"></div>
           </nav>

@@ -16,7 +16,7 @@ const TechStackPageCard = ({
   return (
     <>
       <Link
-      prefetch={false}
+      
         className="group h-full min-h-[26rem] lg:min-h-[30rem] flex flex-col items-center justify-between rounded-3xl bg-card relative border text-card-foreground shadow pt-16 transition overflow-hidden"
         href={PageUrl}
       >

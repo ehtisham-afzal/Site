@@ -44,7 +44,7 @@ export default function Home() {
               variant="secondary"
               className="w-full text-xl md:w-44 h-14"
             >
-              <Link prefetch={false} href="/Contact">
+              <Link  href="/Contact">
                 Get in touch
               </Link>
             </Button>

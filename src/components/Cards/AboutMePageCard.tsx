@@ -16,7 +16,7 @@ const AnotherPageCard = ({
   return (
     <>
       <Link
-      prefetch={false}
+      
         className="relative flex flex-col items-center justify-between pt-16 transition border shadow bg-card group rounded-3xl text-card-foreground"
         href={PageUrl}
       >

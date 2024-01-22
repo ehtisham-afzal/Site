@@ -13,7 +13,7 @@ const NaveBarDesktop = () => {
       <div className="container mx-auto flex h-16 w-full max-w-[1024px] items-center justify-between rounded-xl bg-secondary/50 px-4 backdrop-blur-md border ">
         <div className="flex items-center gap-10">
           <Link
-            prefetch={false}
+            
             className="block h-10 py-2 transition-colors text-foreground hover:text-foreground/50"
             href="/"
           >
@@ -46,7 +46,7 @@ const NaveBarDesktop = () => {
               >
                 <li>
                   <Link
-                    prefetch={false}
+                    
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/Aboute"
                   >
@@ -55,7 +55,7 @@ const NaveBarDesktop = () => {
                 </li>
                 <li>
                   <Link
-                    prefetch={false}
+                    
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/Contact"
                   >
@@ -64,7 +64,7 @@ const NaveBarDesktop = () => {
                 </li>
                 <li>
                   <Link
-                    prefetch={false}
+                    
                     className="block py-2 transition-colors text-foreground hover:text-foreground/50"
                     href="/TechStack"
                   >

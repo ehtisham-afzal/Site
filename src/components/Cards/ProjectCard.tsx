@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0 rounded-3xl bg-card">
       <div className="flex flex-col w-full h-full gap-4 lg:w-1/2">
-        <Link prefetch={false} className="w-fit" href={`/projects/${Name}`}>
+        <Link  className="w-fit" href={`/projects/${Name}`}>
           <Image
             alt={Name}
             width="70"
@@ -32,7 +32,7 @@ const ProjectCard = ({
         <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
-            <Link prefetch={false} href={`/projects/${Name}`}>
+            <Link  href={`/projects/${Name}`}>
               ... Learn More
             </Link>
           ) : (
@@ -63,7 +63,7 @@ const ProjectCard = ({
         </a>
       </div>
       <Link
-        prefetch={false}
+        
         href={`/projects/${Name}`}
         className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-300 ease-out hover:scale-110"
       >

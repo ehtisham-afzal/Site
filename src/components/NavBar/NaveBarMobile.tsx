@@ -20,7 +20,7 @@ const NaveBarMobile = () => {
             <Link
               className="flex items-center justify-center w-full py-2"
               href="/Aboute"
-              prefetch={false}
+              
             >
               <UserIcon className="h-6" />
             </Link>
@@ -38,7 +38,7 @@ const NaveBarMobile = () => {
             <Link
               className="flex items-center justify-center w-full py-2"
               href="/TechStack"
-              prefetch={false}
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

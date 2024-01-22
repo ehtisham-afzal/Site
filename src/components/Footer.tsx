@@ -35,7 +35,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-4">
               <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
-                  prefetch={false}
+                  
                   className="transition-colors duration-150"
                   href="/Aboute"
                 >
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
-                  prefetch={false}
+                  
                   className="transition-colors duration-150"
                   href="/Contact"
                 >
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
                 <Link
-                  prefetch={false}
+                  
                   className="transition-colors duration-150"
                   href="/TechStack"
                 >

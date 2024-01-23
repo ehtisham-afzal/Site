@@ -1,9 +1,14 @@
+import { cn } from "@/lib/utils";
+import Link from "next/link";
 import React from "react";
 
-const CTAButton = () => {
+const CTAButton = ({ className }: { className?: string | undefined }) => {
   return (
-    <a
-      className="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-xl border border-gray-600 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900 w-full md:w-fit min-h-[60px] items-center justify-center bg-primary text-primary-foreground shadow hover:bg-primary/90"
+    <Link
+      className={cn(
+        "flex gap-3 cursor-pointer text-primary transition-colors duration-300 font-semibold bg-gradient-to-tr from-[hsl(var(--background))] via-[hsl(var(--primary))]/30 to-[hsl(var(--background))] px-7 py-3 rounded-xl border hover:from-black hover:to-gray-900 w-full md:w-fit min-h-[60px] items-center justify-center hover:text-white  shadow border-secondary-foreground",
+        className
+      )}
       href="/Contact"
     >
       <svg
@@ -21,7 +26,7 @@ const CTAButton = () => {
         ></path>
       </svg>
       Get in Touch
-    </a>
+    </Link>
   );
 };
 

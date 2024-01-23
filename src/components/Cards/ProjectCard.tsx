@@ -20,21 +20,19 @@ const ProjectCard = ({
     <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0 rounded-3xl bg-card">
       <div className="flex flex-col w-full h-full gap-4 lg:w-1/2">
         {/* <Link  className="w-fit" href={`/projects/${Name}`}> */}
-          <Image
-            alt={Name}
-            width="70"
-            height="70"
-            className="h-20"
-            src={ProjectIconUrl}
-          />
+        <Image
+          alt={Name}
+          width="70"
+          height="70"
+          className="h-20"
+          src={ProjectIconUrl}
+        />
         {/* </Link> */}
         <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
         <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
-            <Link  href={`/projects/${Name}`}>
-              ... Learn More
-            </Link>
+            <Link href={`/projects/${Name}`}>... Learn More</Link>
           ) : (
             ""
           )}
@@ -63,7 +61,6 @@ const ProjectCard = ({
         </a>
       </div>
       <Link
-        
         href={`/projects/${Name}`}
         className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-300 ease-out hover:scale-110"
       >

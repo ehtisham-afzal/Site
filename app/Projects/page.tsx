@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
       <PageHeader
-        Title="Work"
+        Title="Projects"
         Description="Projects and Ideas I've Worked on"
       />
       <main>

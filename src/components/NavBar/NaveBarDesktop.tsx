@@ -51,9 +51,9 @@ const NaveBarDesktop = () => {
                 </Link>
                 <Link
                   className="block py-2 transition-colors text-foreground hover:text-foreground/50"
-                  href="/Work"
+                  href="/Projects"
                 >
-                  Work
+                  Projects
                 </Link>
                 <Link
                   className="block py-2 transition-colors text-foreground hover:text-foreground/50"

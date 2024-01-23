@@ -52,11 +52,11 @@ const NaveBarMobile = () => {
           <Link
             className={cn(
               "flex items-center justify-center w-full py-2 flex-1 rounded-md group text-light-gray",
-              pathName == "/Work" ? "bg-secondary-foreground/10" : null
+              pathName == "/Projects" ? "bg-secondary-foreground/10" : null
             )}
-            href="/Work"
+            href="/Projects"
           >
-            {pathName == "/Work" ? (
+            {pathName == "/Projects" ? (
               <BriefcaseIcon className="h-6" />
             ) : (
               <BriefCaseIconOuline className="h-6" />

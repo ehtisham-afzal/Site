@@ -1,7 +1,12 @@
 import PageHeader from "@/components/PageHeader";
 import CTAButton from "@/components/ui/CTAButton";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Aboute Ehtisham",
+};
 
 const page = () => {
   return (

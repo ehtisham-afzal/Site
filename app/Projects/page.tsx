@@ -3,6 +3,11 @@ import PageHeader from "@/components/PageHeader";
 import CTAButton from "@/components/ui/CTAButton";
 import { Projects } from "@/lib/Data";
 import { SparklesIcon } from "@heroicons/react/24/outline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 const page = () => {
   return (

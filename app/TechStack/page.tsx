@@ -1,7 +1,11 @@
 import TechCard from "@/components/Cards/TechCard";
 import PageHeader from "@/components/PageHeader";
-import { AppLogos, CategorizedAppLogos } from "@/lib/Data";
-import React from "react";
+import { AppLogos } from "@/lib/Data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tech Stack",
+};
 
 const page = () => {
   return (

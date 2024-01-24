@@ -4,7 +4,11 @@ import PageHeader from "@/components/PageHeader";
 import SocialLinks from "@/components/SocialLinks";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+};
 
 const page = () => {
   return (
@@ -22,9 +26,7 @@ const page = () => {
               <div className="h-3 w-3 rounded-full border-[1px] border-[#F6C136] bg-[#FDBC2E] " />
               <div className="h-3 w-3 rounded-full border-[1px] border-[#53CC28] bg-[#27C840] " />
             </div>
-            <p className="mb-4 font-medium ">
-              Your message
-            </p>
+            <p className="mb-4 font-medium ">Your message</p>
             <Separator />
           </div>
           <ContactMeForm />

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="relative mt-16 min-h-[326px] pb-32 md:pb-12">
+    <footer className="relative mt-16 min-h-[326px] pb-32 md:pb-12 [backgroundRepeat:no-repeat] [backgroundPosition:bottom] bg-background bg-[url(/BackgroundGradientBottom.svg)]">
       <Separator className="h-[1px]" />
       <div className="container relative z-10 mt-20 flex w-full max-w-[1024px] flex-col items-start justify-between gap-12 md:h-[236px] md:flex-row">
         <div className="flex flex-col justify-between h-full">

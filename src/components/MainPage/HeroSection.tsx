@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import CTAButton from "../ui/CTAButton";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -35,7 +36,13 @@ const HeroSection = () => {
               See my resume
             </a>
           </Button>
-          <CTAButton className="rounded-lg shadow-md dark:text-gray-200npm run dev border-card h-14" />
+          <Button
+            size="lg"
+            variant="secondary"
+            className="w-full text-xl md:w-44 h-14"
+          >
+            <Link href="/Contact">Get in touch</Link>
+          </Button>
         </div>
       </div>
       <Image

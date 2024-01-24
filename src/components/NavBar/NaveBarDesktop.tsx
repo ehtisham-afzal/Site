@@ -1,4 +1,3 @@
-import React from "react";
 import { ModeToggle } from "../ModeToggle";
 import {
   GitHubLogoIcon,
@@ -10,7 +9,7 @@ import Link from "next/link";
 const NaveBarDesktop = () => {
   return (
     <div className="absolute top-8 hidden md:block left-0 right-0 px-4 z-50">
-      <div className="container mx-auto flex h-16 w-full max-w-[1024px] items-center justify-between rounded-xl bg-secondary/50 px-4 backdrop-blur-md border ">
+      <div className="container mx-auto flex h-16 w-full max-w-[1024px] items-center justify-between rounded-xl bg-secondary/50 px-4 backdrop-blur-sm border ">
         <div className="flex items-center gap-10">
           <Link
             className="block h-10 py-2 transition-colors text-foreground hover:text-foreground/50"
@@ -39,9 +38,7 @@ const NaveBarDesktop = () => {
           >
             <div style={{ position: "relative" }}>
               <div
-                data-orientation="horizontal"
                 className="m-0 flex list-none items-center gap-10 rounded-[6px] p-1"
-                dir="ltr"
               >
                 <Link
                   className="block py-2 transition-colors text-foreground hover:text-foreground/50"

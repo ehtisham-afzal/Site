@@ -9,9 +9,9 @@ const HeroSection = () => {
       <div className="relative top-0 left-0 z-10 flex flex-col gap-6 overflow-hidden md:absolute md:w-7/12 text-pretty">
         <div>
           <Image
-            className="object-cover w-24 h-24 mb-3 border-4 rounded-full md:hidden"
-            width={80}
-            height={80}
+            className="object-cover w-24 h-24 mb-3 p-1 backdrop-blur-sm bg-secondary/50 rounded-full md:hidden"
+            width={96}
+            height={96}
             src="/sham2.png"
             alt="Ehtisham"
           />

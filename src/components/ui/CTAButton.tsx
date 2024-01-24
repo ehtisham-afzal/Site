@@ -6,7 +6,7 @@ const CTAButton = ({ className }: { className?: string | undefined }) => {
   return (
     <Link
       className={cn(
-        "flex gap-3 cursor-pointer text-primary transition-colors duration-300 font-semibold bg-gradient-to-tr from-[hsl(var(--background))] via-[hsl(var(--primary))]/30 to-[hsl(var(--background))] px-7 py-3 rounded-xl border hover:from-black hover:to-gray-900 w-full md:w-fit min-h-[60px] items-center justify-center hover:text-white  shadow border-secondary-foreground",
+        "flex gap-3 cursor-pointer text-primary transition-colors duration-300 font-semibold dark:text-white bg-gradient-to-tr from-[hsl(var(--background))] via-[hsl(var(--primary))]/30 to-[hsl(var(--background))] px-7 py-3 rounded-xl border hover:from-black hover:to-gray-900 w-full md:w-fit min-h-[60px] items-center justify-center hover:text-white  shadow border-secondary-foreground",
         className
       )}
       href="/Contact"

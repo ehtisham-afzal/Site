@@ -9,17 +9,19 @@ const ProjectCard = ({
   ProjectIconUrl,
   ProjectUrl,
   ProjectImageUrl,
+  path
 }: {
   Name: string;
   Description: string;
   ProjectIconUrl: string;
   ProjectUrl: string;
   ProjectImageUrl: string;
+  path:string
 }) => {
   return (
     <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0 rounded-3xl bg-card">
       <div className="flex flex-col w-full h-full gap-4 lg:w-1/2">
-        {/* <Link  className="w-fit" href={`/projects/${Name}`}> */}
+        <Link  className="w-fit" href={`/Projects/${path}`}>
         <Image
           alt={Name}
           width="70"
@@ -27,12 +29,12 @@ const ProjectCard = ({
           className="h-20"
           src={ProjectIconUrl}
         />
-        {/* </Link> */}
+        </Link>
         <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
         <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
-            <Link href={`/projects/${Name}`}>... Learn More</Link>
+            <Link className="text-foreground/90" href={`/Projects/${path}`}>... Learn More</Link>
           ) : (
             ""
           )}

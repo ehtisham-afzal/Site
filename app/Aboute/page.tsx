@@ -24,8 +24,8 @@ const page = () => {
               Who I am
             </h3>
             <p className="text-[18px] leading-[160%] text-muted-foreground">
-              I’m <span className="text-primary">Ehtisham Afzal</span> A junior
-              web developer with a passion for creating engaging and
+              I’m <span className="text-foreground/90">Ehtisham Afzal</span> A
+              junior web developer with a passion for creating engaging and
               user-friendly web. I have experience in HTML, CSS, JavaScript, and
               React, and I am always eager to learn new technologies and
               frameworks. I enjoy working in a team and collaborating with other
@@ -33,7 +33,7 @@ const page = () => {
               projects, such as a personal portfolio website, a FullStack
               Ecommerce WebApp called{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="__blank"
                 href="https://littlelemon-sham.vercel.app/"
               >
@@ -41,7 +41,7 @@ const page = () => {
               </a>
               , which you can see on my{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="__blank"
                 href="https://github.com/EHTISHAM-Afzal"
               >
@@ -65,7 +65,7 @@ const page = () => {
               website, a FullStack Ecommerce WebApp called LittleLemon, which
               you can see on my{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="__blank"
                 href="https://github.com/EHTISHAM-Afzal"
               >
@@ -79,12 +79,15 @@ const page = () => {
             <p className="font-semibold uppercase dark:text-medium-gray"></p>
             <p className="text-[18px] leading-[160%] text-muted-foreground">
               Feel free to reach out via{" "}
-              <a className="text-primary" href="mailto:khaj3172@gmail.com">
+              <a
+                className="text-foreground/90"
+                href="mailto:khaj3172@gmail.com"
+              >
                 e-mail
               </a>
               , or follow me on{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="_blank"
                 href="https://twitter.com/ehtisham_OO7"
               >
@@ -92,7 +95,7 @@ const page = () => {
               </a>
               . Want to see where I’ve worked? Check out my{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="_blank"
                 href="https://read.cv/ehtisham"
               >
@@ -100,7 +103,7 @@ const page = () => {
               </a>
               , or connect with me on{" "}
               <a
-                className="text-primary"
+                className="text-foreground/90"
                 target="_blank"
                 href="https://www.linkedin.com/in/ehtisham-afzal"
               >

@@ -16,6 +16,7 @@ const SelectedWorkSection = () => {
             ProjectIconUrl={project.ProjectIconUrl}
             ProjectUrl={project.ProjectUrl}
             ProjectImageUrl={project.ProjectImageUrl}
+            path={project.path}
           />
         ))}
       </div>

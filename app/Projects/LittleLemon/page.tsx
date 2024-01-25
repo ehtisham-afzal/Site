@@ -22,9 +22,7 @@ const page = () => {
           created this application from scratch to demonstrate my skills and
           knowledge in front-end development.
         </p>
-        <iframe
-      src="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II"
-    />
+        <iframe src="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II" />
         {/* <YouTube
         playlabel="Play the video"
         id="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II"
@@ -141,7 +139,7 @@ const page = () => {
         beautiful and responsive web pages with minimal code. ShadCN-UI also
         supports theming, customization, accessibility and animations.
       </p>
-      <div className="w-full flex flex-wrap">
+      {/* <div className="w-full flex flex-wrap">
         <Image
           className="w-full h-fit"
           width={1}
@@ -156,7 +154,7 @@ const page = () => {
           alt="LittleLemon mockup"
           src="/Brown Modern Visit Our Website Video Instagram Post (2).png"
         />
-      </div>
+      </div> */}
 
       <h2 className="text-[hsl(60,9.1%,97.8%)]">
         Problems And Thought Process
@@ -170,7 +168,7 @@ const page = () => {
         <br />I tried to make the components as reusable as possible and use
         props for minor variations.
       </p>
-      <div className="w-full flex flex-wrap h-fit">
+      {/* <div className="w-full flex flex-wrap h-fit">
         <Image
           width={1}
           height={1}
@@ -185,7 +183,7 @@ const page = () => {
           className="w-full h-fit"
           src="/Web capture_3-12-2023_181458_littlelemon-sham.vercel.app.jpeg"
         />
-      </div>
+      </div> */}
       <h2 className="text-[hsl(60,9.1%,97.8%)]">Lesson Learned</h2>
       <p>
         I have successfully built an E Commerce web app using the skill that I

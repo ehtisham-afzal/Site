@@ -15,7 +15,7 @@ import {
   HomeIcon,
   UserIcon,
 } from "@heroicons/react/24/solid";
-import { cn } from "@/lib/utils";
+import { cn } from "../../../lib/utils";
 
 const NaveBarMobile = () => {
   const pathName = usePathname();

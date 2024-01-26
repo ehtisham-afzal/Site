@@ -1,4 +1,24 @@
+import { Resend } from "resend";
 import { z } from "zod";
+import { toast } from "sonner";
+import { EmailTemplate } from "@/components/EmailTemplate";
+
+// const resend = new Resend(process.env.RESEND_API_KEY);
+
+// const SendMail = async () => {
+//   return resend.emails
+//     .send({
+//       from: "Acme <onboarding@resend.dev>",
+//       to: ["delivered@resend.dev"],
+//       subject: "Hello world",
+//       text: "From Ehtisham",
+//       react: EmailTemplate({ firstName: "John" }),
+//     })
+//     .then(() => toast.success("Email are sended"))
+//     .catch((Error) => toast.error(`Can't Send the message ${Error}`));
+// };
+
+console.log(process.env.RESEND_API_KEY)
 
 export type State = {
   errors?: {
@@ -36,4 +56,7 @@ export const AuthinticatMessage = (
       message: "Missing Fields. Failed to Send Message.",
     };
   }
+  // if (ValidateFields.success) {
+  //   SendMail();
+  // }
 };

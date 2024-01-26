@@ -1,6 +1,6 @@
 import TechCard from "@/components/Cards/TechCard";
 import PageHeader from "@/components/PageHeader";
-import { AppLogos } from "@/lib/Data";
+import { AppLogos } from "../../lib/Data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

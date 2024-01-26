@@ -1,4 +1,4 @@
-import { Projects } from "@/lib/Data";
+import { Projects } from "../../../lib/Data";
 import ProjectCard from "../Cards/ProjectCard";
 
 const SelectedWorkSection = () => {

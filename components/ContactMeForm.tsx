@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { Button } from "./ui/button";
-import { Separator } from "./ui/separator";
+import { Button } from "../src/components/ui/button";
+import { Separator } from "../src/components/ui/separator";
 import { useFormState } from "react-dom";
-import { AuthinticatMessage } from "../../lib/Actions";
+import { AuthinticatMessage } from "../lib/Actions";
 import {
   EnvelopeIcon,
   ExclamationCircleIcon,

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader } from "./ui/card";
-import { Input } from "./ui/input";
+import { Card, CardContent, CardDescription, CardHeader } from "../src/components/ui/card";
+import { Input } from "../src/components/ui/input";
 import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 
 const CTAWhatsApp = () => {

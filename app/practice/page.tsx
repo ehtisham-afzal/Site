@@ -1,7 +1,7 @@
 import { AppLogos } from "../../lib/Data";
-import TechCard from "@/components/Cards/TechCard";
+import TechCard from "../../components/Cards/TechCard";
 import React from "react";
-import GlowingCardsProvider from "@/components/Cards/GlowingCardsProvider";
+import GlowingCardsProvider from "../../components/Cards/GlowingCardsProvider";
 
 const page = () => {
   return (

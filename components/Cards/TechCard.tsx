@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "@/components/ui/card";
+import { Card } from "../../src/components/ui/card";
 import Image from "next/image";
 import { ArrowRightIcon, ArrowUpIcon } from "@heroicons/react/24/outline";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Card, CardHeader } from "../ui/card";
+import { Card, CardHeader } from "../../src/components/ui/card";
 import Link from "next/link";
 
 const ProjectCard = ({

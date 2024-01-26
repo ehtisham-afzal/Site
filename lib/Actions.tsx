@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 import { z } from "zod";
 import { toast } from "sonner";
-import { EmailTemplate } from "@/components/EmailTemplate";
+import { EmailTemplate } from "../components/EmailTemplate";
 
 // const resend = new Resend(process.env.RESEND_API_KEY);
 

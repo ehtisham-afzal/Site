@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "../Styles/globals.css";
 import { cn } from "../lib/utils";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Nav from "@/components/NavBar/Nav";
-import Footer from "@/components/Footer";
-import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "../components/ThemeProvider";
+import Nav from "../components/NavBar/Nav";
+import Footer from "../components/Footer";
+import { Toaster } from "../src/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: {

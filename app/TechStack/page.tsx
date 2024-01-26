@@ -1,5 +1,5 @@
-import TechCard from "@/components/Cards/TechCard";
-import PageHeader from "@/components/PageHeader";
+import TechCard from "../../components/Cards/TechCard";
+import PageHeader from "../../components/PageHeader";
 import { AppLogos } from "../../lib/Data";
 import { Metadata } from "next";
 

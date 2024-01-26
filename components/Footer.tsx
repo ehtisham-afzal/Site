@@ -1,5 +1,5 @@
 import { ArrowUpIcon } from "@heroicons/react/16/solid";
-import { Separator } from "./ui/separator";
+import { Separator } from "../src/components/ui/separator";
 import Link from "next/link";
 
 const Footer = () => {

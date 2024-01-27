@@ -1,6 +1,7 @@
 import React from "react";
-import NaveBarMobile from "./NaveBarMobile";
-import NaveBarDesktop from "./NaveBarDesktop";
+import dynamic from "next/dynamic";
+const NaveBarMobile = dynamic(() => import("./NaveBarMobile"));
+const NaveBarDesktop = dynamic(() => import("./NaveBarDesktop"));
 
 const Nav = () => {
   return (

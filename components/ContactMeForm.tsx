@@ -13,9 +13,6 @@ const ContactMeForm = () => {
   const [ErrorMessage, dispatch] = useFormState(AuthinticatMessage, undefined);
   return (
     <form action={dispatch} className="px-6 mb-4 relative">
-      <span className="absolute flex justify-center items-center w-full hfull backdrop-blur-sm bg-background/50 top-0 right-0 bottom-0">
-        This form is underConstrunction please consider another ways
-      </span>
       <label htmlFor="email" className="flex gap-2 my-1 md:flex-row">
         <span className="font-medium">E-mail:*</span>
         <input
@@ -79,7 +76,7 @@ const ContactMeForm = () => {
           </span>
         )}
         <Button
-          disabled={true}
+          // disabled={true}
           type="submit"
           size={"lg"}
           className="float-right w-full md:w-fit md:mb-2 md:absolute right-0 md:right-2 bottom-0"

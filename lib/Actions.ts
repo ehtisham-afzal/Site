@@ -3,7 +3,7 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { EmailTemplate } from "../components/EmailTemplate";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
 const SendMail = async () => {
   return resend.emails

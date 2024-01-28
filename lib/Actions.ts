@@ -49,11 +49,11 @@ export const AuthinticatMessage = (
   if (ValidateFields.success) {
     resend.emails
       .send({
-        from: formData.get('email') as string,
-        to: ["darklight3173@gmail.com"],
+        from: `${formData.get('name')}<notifications@ehtisham.dev>`,
+        to: ["shaminterprise@gmail.com"],
         subject: formData.get('subject') ? formData.get('subject') as string : 'From website',
         text: formData.get('message') as string,
-        react: EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string }),
+        react: EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string, Gmail: formData.get('email') as string }),
       })
       .catch((Error) => {
         redirect('/Notification/Faild')

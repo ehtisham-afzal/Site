@@ -5,7 +5,6 @@ import { cn } from "../lib/utils";
 import { ThemeProvider } from "../components/ThemeProvider";
 import Nav from "../components/NavBar/Nav";
 import Footer from "../components/Footer";
-import { Toaster } from "../src/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: {
@@ -39,7 +38,6 @@ export default function RootLayout({
             <Nav />
             {children}
             <Footer />
-            <Toaster />
           </ThemeProvider>
         </div>
       </body>

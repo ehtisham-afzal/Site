@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Button } from "../src/components/ui/button";
 import { Separator } from "../src/components/ui/separator";
 import { useFormState } from "react-dom";
@@ -8,9 +7,11 @@ import {
   EnvelopeIcon,
   ExclamationCircleIcon,
 } from "@heroicons/react/24/outline";
+import { useFormStatus } from "react-dom";
 
 const ContactMeForm = () => {
   const [ErrorMessage, dispatch] = useFormState(AuthinticatMessage, undefined);
+  const { pending } = useFormStatus();
   return (
     <form action={dispatch} className="px-6 mb-4 relative">
       <label htmlFor="email" className="flex gap-2 my-1 md:flex-row">
@@ -76,7 +77,7 @@ const ContactMeForm = () => {
           </span>
         )}
         <Button
-          // disabled={true}
+          disabled={pending}
           type="submit"
           size={"lg"}
           className="float-right w-full md:w-fit md:mb-2 md:absolute right-0 md:right-2 bottom-0"

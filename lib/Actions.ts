@@ -1,21 +1,11 @@
+'use server'
 import { Resend } from "resend";
 import { z } from "zod";
-import { toast } from "sonner";
 import { EmailTemplate } from "../components/EmailTemplate";
+import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 
 const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
-
-const SendMail = async () => {
-  return resend.emails
-    .send({
-      from: "Acme <onboarding@resend.dev>",
-      to: ["delivered@resend.dev"],
-      subject: "Hello world",
-      react: EmailTemplate({ firstName: "John" }) as React.ReactElement,
-    })
-    .then(() => toast.success("Email are sended"))
-    .catch((Error) => toast.error(`Can't Send the message ${Error}`));
-};
 
 
 export type State = {
@@ -54,7 +44,23 @@ export const AuthinticatMessage = (
       message: "Missing Fields. Failed to Send Message.",
     };
   }
+
+
   if (ValidateFields.success) {
-    SendMail();
+    resend.emails
+      .send({
+        from: formData.get('email') as string,
+        to: ["darklight3173@gmail.com"],
+        subject: formData.get('subject') ? formData.get('subject') as string : 'From website',
+        text: formData.get('message') as string,
+        react: EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string }),
+      })
+      .catch((Error) => {
+        redirect('/Notification/Faild')
+        console.error(`Can't send Email ${Error}`)
+      });
+
+    revalidatePath('/Contact')
+    redirect('/Notification')
   }
 };

@@ -63,7 +63,7 @@ const ProjectCard = ({
         </a>
       </div>
       <Link
-        href={`/projects/${Name}`}
+        href={`/Projects/${path}`}
         className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-300 ease-out hover:scale-110"
       >
         <Image

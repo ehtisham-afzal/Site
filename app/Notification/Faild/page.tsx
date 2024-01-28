@@ -8,14 +8,14 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div>
+    <div className="container h-screen flex flex-col md:flex-row-reverse items-center justify-center">
       <PageHeader
         Title="Opps Can't Send"
         Description="Pleas Try Again Or Consider Another Way To Comunicate"
       />
-      <main className="w-full flex justify-center items-center">
+      <span className="w-4/6 md:w-1/3 flex md:mt-36">
         <InformationCircleIcon className="m-2 text-orange-500" />
-      </main>
+      </span>
     </div>
   );
 };

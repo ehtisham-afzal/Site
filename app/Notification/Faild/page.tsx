@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className="container h-screen flex flex-col md:flex-row-reverse items-center justify-center">
+    <div className="h-screen flex flex-col md:flex-row-reverse items-center justify-center">
       <PageHeader
         Title="Opps Can't Send"
         Description="Pleas Try Again Or Consider Another Way To Comunicate"

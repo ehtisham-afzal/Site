@@ -12,7 +12,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   Gmail,
 }) => (
   <div>
-    <h1>From, {Name}!</h1>
+    <h1>From, {Name}</h1>
     <h3>
       Gmail: <a href={`mailto:${Gmail}`}>{Gmail}</a>{" "}
     </h3>

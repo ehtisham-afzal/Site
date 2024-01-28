@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className="container h-screen flex flex-col md:flex-row-reverse items-center justify-center">
+    <div className="h-screen flex flex-col md:flex-row-reverse items-center justify-center">
       <PageHeader
-        Title="Youre Message Recieved"
+        Title="Youre Message Recieved!"
         Description="I Will Get back to you as soon as possible"
       />
       <span className="w-4/6 md:w-1/3 flex md:mt-36">

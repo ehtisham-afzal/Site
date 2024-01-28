@@ -81,7 +81,7 @@ const page = () => {
               Feel free to reach out via{" "}
               <a
                 className="text-foreground/90"
-                href="mailto:khaj3172@gmail.com"
+                href="mailto:shaminterprise@gmail.com"
               >
                 e-mail
               </a>

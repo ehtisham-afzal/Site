@@ -23,7 +23,7 @@ const page = () => {
             <h3 className="font-semibold uppercase dark:text-medium-gray">
               Who I am
             </h3>
-            <p className="text-[18px] leading-[160%] text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               I’m <span className="text-foreground/90">Ehtisham Afzal</span> A
               junior web developer with a passion for creating engaging and
               user-friendly web. I have experience in HTML, CSS, JavaScript, and
@@ -55,7 +55,7 @@ const page = () => {
             <h3 className="font-semibold uppercase dark:text-medium-gray">
               What I do
             </h3>
-            <p className="text-[18px] leading-[160%] text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               As a junior web developer, I love to create web applications that
               are engaging and user-friendly. I have skills in HTML, CSS,
               JavaScript, and React, and I am always open to learning new
@@ -77,7 +77,7 @@ const page = () => {
           </div>
           <div className="flex flex-col gap-2">
             <p className="font-semibold uppercase dark:text-medium-gray"></p>
-            <p className="text-[18px] leading-[160%] text-muted-foreground">
+            <p className="text-[18px] text-base text-muted-foreground">
               Feel free to reach out via{" "}
               <a
                 className="text-foreground/90"
@@ -114,7 +114,7 @@ const page = () => {
           </div>
           <div className="flex flex-col gap-2">
             <p className="font-semibold uppercase dark:text-medium-gray"></p>
-            <h3 className="text-[18px] leading-[160%] text-muted-foreground">
+            <h3 className="text-[18px] text-base text-muted-foreground">
               Let’s build something great,
             </h3>
           </div>

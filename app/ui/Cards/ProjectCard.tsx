@@ -34,7 +34,7 @@ const ProjectCard = ({
         <p className="z-10 flex-1 text-muted-foreground text-pretty">
           {Description.substring(0, 350)}
           {Description.length > 350 ? (
-            <Link className="text-foreground/90" href={`/Projects/${path}`}>... Learn More</Link>
+            <Link className="text-foreground" href={`/Projects/${path}`}>... Learn More</Link>
           ) : (
             ""
           )}

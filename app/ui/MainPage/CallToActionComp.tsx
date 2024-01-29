@@ -1,5 +1,5 @@
 import React from "react";
-import CTAButton from "../../src/components/ui/CTAButton";
+import CTAButton from "../../../src/components/ui/CTAButton";
 
 const CallToActionComp = () => {
   return (

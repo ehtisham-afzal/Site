@@ -1,6 +1,6 @@
 "use client";
-import { Button } from "../src/components/ui/button";
-import { Separator } from "../src/components/ui/separator";
+import { Button } from "../../src/components/ui/button";
+import { Separator } from "../../src/components/ui/separator";
 import { useFormState } from "react-dom";
 import { AuthinticatMessage } from "../lib/Actions";
 import {

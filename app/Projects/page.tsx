@@ -1,7 +1,7 @@
-import ProjectCard from "../../components/Cards/ProjectCard";
-import PageHeader from "../../components/PageHeader";
+import ProjectCard from "../ui/Cards/ProjectCard";
+import PageHeader from "../ui/PageHeader";
 import CTAButton from "../../src/components/ui/CTAButton";
-import { Projects } from "../../lib/Data";
+import { Projects } from "../lib/Data";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import { Metadata } from "next";
 

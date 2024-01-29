@@ -1,4 +1,4 @@
-import { LittleLemonStack } from "../../../lib/Data";
+import { LittleLemonStack } from "../../lib/Data";
 import Image from "next/image";
 import React from "react";
 

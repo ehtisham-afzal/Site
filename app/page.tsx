@@ -1,7 +1,7 @@
-import CallToActionComp from "../components/MainPage/CallToActionComp";
-import GetToKnowMeSection from "../components/MainPage/GetToKnowMeSection";
-import HeroSection from "../components/MainPage/HeroSection";
-import SelectedWorkSection from "../components/MainPage/SelectedWorkSection";
+import CallToActionComp from "./ui/MainPage/CallToActionComp";
+import GetToKnowMeSection from "./ui/MainPage/GetToKnowMeSection";
+import HeroSection from "./ui/MainPage/HeroSection";
+import SelectedWorkSection from "./ui/MainPage/SelectedWorkSection";
 
 export default function Home() {
   return (

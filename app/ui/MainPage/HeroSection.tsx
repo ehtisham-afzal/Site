@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../../src/components/ui/button";
-import CTAButton from "../../src/components/ui/CTAButton";
+import { Button } from "../../../src/components/ui/button";
+import CTAButton from "../../../src/components/ui/CTAButton";
 import Link from "next/link";
 
 const HeroSection = () => {

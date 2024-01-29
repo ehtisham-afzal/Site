@@ -1,7 +1,7 @@
 'use server'
 import { Resend } from "resend";
 import { z } from "zod";
-import { EmailTemplate } from "../components/EmailTemplate";
+import { EmailTemplate } from "../ui/EmailTemplate";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 

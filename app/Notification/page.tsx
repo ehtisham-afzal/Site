@@ -1,5 +1,5 @@
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../ui/PageHeader";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -56,11 +56,11 @@ export const AuthinticatMessage = (
         react: EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string, Gmail: formData.get('email') as string }),
       })
       .catch((Error) => {
-        redirect('/FailedToSend')
+        redirect('/Notification/FailedToSend')
         console.error(`Can't send Email ${Error}`)
       });
 
     revalidatePath('/Contact')
-    redirect('/MessageSended')
+    redirect('/Notification/MessageSended')
   }
 };

@@ -4,9 +4,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className="justify-between flex flex-col py-12 text-start tracking-wide prose prose-p:text-[hsl(240,2%,81%)] text-white/90">
+    <main className="justify-between flex flex-col w-full py-12 text-start tracking-wide prose text-foreground mt-32">
       <section>
-        <h1 className="py-2 text-[hsl(60,9.1%,97.8%)] tracking-wider">
+        <h1 className="py-2 tracking-wider text-foreground">
           LittleLemon
         </h1>
         <p className="flex w-full flex-wrap overflow-hidden">
@@ -22,7 +22,7 @@ const page = () => {
           created this application from scratch to demonstrate my skills and
           knowledge in front-end development.
         </p>
-        <iframe src="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II" />
+        <iframe className="w-full h-80" src="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II" />
         {/* <YouTube
         playlabel="Play the video"
         id="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II"
@@ -85,8 +85,8 @@ const page = () => {
       </section>
       <section className="w-full">
         <Image
-          width={1}
-          height={1}
+          width={700}
+          height={500}
           alt="LilleLemon Hero section"
           className="w-full h-fit"
           src="/LettleLemonHero700px.jpg"

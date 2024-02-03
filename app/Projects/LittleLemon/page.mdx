@@ -1,0 +1,59 @@
+import { LittleLemonStack } from "../../lib/Data";
+import Table from "./Table";
+import CallToActionComp from '../../ui/MainPage/CallToActionComp'
+
+
+# LittleLemon
+
+LittleLemon is a mobile-first full-stack web application that I developed using the MERN stack (MongoDB, Express, React, and Node.js). I learned how to build the front-end of this application from the **Meta Front-End Developer Professional Certificate** course on Coursera, taught by meta engineers. This e-commerce application has many features, such as table booking form that could store the booking data in a **MongoDB** database and use it to avoid table overbooking and a universal cart, a smooth shopping experience, a product showcase, and support pages. I created this application from scratch to demonstrate my skills and knowledge in front-end development.
+
+<iframe className="w-full h-80" src="https://www.youtube.com/embed/6iJaz7yslUk?si=wbLCi00fFzWyf4II" />
+
+<Table />
+
+![LilleLemon Hero section](/LettleLemonHero700px.jpg)
+
+## Project Purpose And Goal
+
+The main purpose of this project is to apply the skill I just learned. The project has three phases. The first phase is to build the user interface, which allows the user to see the design and layout of the application. The second phase is to make the application functional, which enables the user to reserve a table online. The third phase is the most extensive and complex, as it involves refactoring the entire application as a full-stack e-commerce application with all the features that such an application requires.
+
+## Web Stack And Explaination
+
+<div className="w-full max-w-full flex justify-between">
+  {LittleLemonStack.map((logo) => (
+    <img
+      className="w-12 md:w-24 rounded-lg"
+      src={logo.ImageURL}
+      alt={logo.Name}
+      key={logo.Name}
+    />
+  ))}
+</div>
+
+**React** is a popular and fast front-end library that helps me create dynamic and interactive user interfaces with ease. I use choose them write JSX syntax to write HTML-like code in JavaScript and leverage the power of hooks, components, props and state management.  
+**Express** is a minimalist and flexible back-end framework that runs on Node.js. I used it to build RESTful APIs, handle routing, middleware, error handling.  
+**MongoDB** is a scalable and flexible NoSQL database that stores data in JSON-like documents. I choose it to store querries and data efficiently and reliably. MongoDB also supports various features such as indexing, aggregation, transactions, sharding and replication.  
+**Redux** is a state management library that works well with React. I choose it to manage the global state of your application in a single source of truth. Redux helps me avoid prop drilling, maintain consistency, debug easily and implement complex logic with reducers, actions and middleware with using _ReduxToolkit and ReduxQuerry_ I leverage the super powers of Redux.  
+**ShadCN-UI** is a sleek and modern UI library that provides ready-made components for React projects. I choose it to create beautiful and responsive web pages with minimal code. ShadCN-UI also supports theming, customization, accessibility and animations.
+
+![LittleLemon mockup](/Projects/LittleLemon/BrownModernVisitOurWebsiteVideoInstagramPost.png) 
+![LittleLemon mockup](/Projects/LittleLemon/BrownModernVisitOurWebsiteVideoInstagramPost(2).png)
+
+## Problems And Thought Process
+
+I faced some challenges while working on this project, especially in terms of code organization and structure. One of the most difficult tasks was to create a booking form that could store the booking data in a MongoDB database and use it to avoid table overbooking. Another challenge was to implement a cart system that was managed with Redux.  
+I tried to make the components as reusable as possible and use props for minor variations.
+
+![cart image](/Projects/LittleLemon/Webcapture_3-12-2023_181458_littlelemon-sham.vercel.app.jpeg) 
+![cart image](/Projects/LittleLemon/Webcapture_3-12-2023_182245_littlelemon-sham.vercel.app.jpeg)
+
+## Lesson Learned
+
+I have successfully built an E Commerce web app using the skill that I recently acquired through online courses and tutorials. This project was not only a way to showcase my abilities, but also a valuable opportunity to deepen my understanding of the skill and practice it in a real-world scenario. I faced some challenges and difficulties along the way, but I was able to overcome them with perseverance and creativity. I am proud of what I have accomplished and I look forward to applying my skill to more projects in the future.
+
+## Other Projects
+
+Coming Soon
+
+<CallToActionComp />
+

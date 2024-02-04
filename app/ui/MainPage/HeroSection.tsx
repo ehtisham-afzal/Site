@@ -31,7 +31,7 @@ const HeroSection = () => {
             variant="default"
             className="w-full text-xl md:w-44 h-14"
           >
-            <a target="_blank" href="https://read.cv/ehtisham">
+            <a target="_blank" href="https://cv.ehtisham.dev">
               See my resume
             </a>
           </Button>

@@ -1,7 +1,7 @@
 export const SocialLinks = [
     {
         Name: "LinkIn",
-        IdURL: "https://www.linkedin.com/in/ehtisham-afzal-819593195/",
+        IdURL: "https://www.linkedin.com/in/ehtisham-afzal/",
         IconURL:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
     },
@@ -13,7 +13,7 @@ export const SocialLinks = [
     },
     {
         Name: "Twitter",
-        IdURL: "https://twitter.com/EHTISHAMoo7",
+        IdURL: "https://twitter.com/ehtisham_OO7",
         IconURL:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg",
     },

@@ -1,6 +1,7 @@
 import { ArrowUpIcon } from "@heroicons/react/16/solid";
 import { Separator } from "../../src/components/ui/separator";
 import Link from "next/link";
+import { SocialLinks } from "../lib/Data";
 
 const Footer = () => {
   return (
@@ -28,10 +29,9 @@ const Footer = () => {
             </svg>
             <span className="sr-only">Ehtisham Logo</span>
           </Link>
-            <p className="mt-10 text-sm text-onyx/60 dark:text-white/40">
+          <p className="mt-10 text-sm text-onyx/60 dark:text-white/40">
             ©️2024 Ehtisham Afzal. All Rights Reserved
           </p>
-          
         </div>
         <div className="grid grid-cols-2 gap-10 -order-1 md:order-2 md:gap-20">
           <div className="flex flex-col gap-8">
@@ -63,36 +63,21 @@ const Footer = () => {
           <div className="flex flex-col gap-8">
             <p className="font-bold text-onyx dark:text-white">Elsewhere</p>
             <ul className="flex flex-col gap-4 text-light-gray">
-              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a
-                  className="transition-colors duration-150"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/ehtisham-afzal"
+              {SocialLinks.map((link) => (
+                <li
+                  key={link.Name}
+                  className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white"
                 >
-                  LinkedIn
-                </a>
-                <ArrowUpIcon className="-translate-x-2 translate-y-2 rotate-45 text-onyx opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 h-5 cursor-pointer"/>
-              </li>
-              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a
-                  className="transition-colors duration-150"
-                  target="_blank"
-                  href="https://github.com/EHTISHAM-Afzal"
-                >
-                  GitHub
-                </a>
-                <ArrowUpIcon className="-translate-x-2 translate-y-2 rotate-45 text-onyx opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 h-5 cursor-pointer"/>
-              </li>
-              <li className="flex items-center gap-2 group text-onyx/60 hover:text-onyx dark:text-light-gray dark:hover:text-white">
-                <a
-                  className="transition-colors duration-150"
-                  target="_blank"
-                  href="https://twitter.com/EHTISHAMoo7"
-                >
-                  X (Twitter)
-                </a>
-                <ArrowUpIcon className="-translate-x-2 translate-y-2 rotate-45 text-onyx opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 h-5 cursor-pointer"/>
-              </li>
+                  <a
+                    className="transition-colors duration-150"
+                    target="_blank"
+                    href={link.IdURL}
+                  >
+                    {link.Name}
+                  </a>
+                  <ArrowUpIcon className="-translate-x-2 translate-y-2 rotate-45 text-onyx opacity-0 transition duration-300 hover:rotate-[405deg] group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 h-5 cursor-pointer" />
+                </li>
+              ))}
             </ul>
           </div>
         </div>

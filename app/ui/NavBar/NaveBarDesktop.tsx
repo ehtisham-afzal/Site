@@ -92,7 +92,7 @@ const NaveBarDesktop = () => {
             <a
               className="w-7 flex items-center"
               target="_blank"
-              href="https://twitter.com/EHTISHAMoo7"
+              href="https://twitter.com/ehtisham_OO7"
             >
               <TwitterLogoIcon className="w-full h-full hover:text-blue-500" />
               <p className="sr-only">TwitterX</p>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "Ehtisham Afzal Jr Web Dev",
   },
   description: "Ehtisham Afzal Personal portfolio Site",
-  metadataBase: new URL("https://ehtisham.vercel.app"),
+  metadataBase: new URL("https://ehtisham.dev"),
 };
 
 const fontSans = FontSans({

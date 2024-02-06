@@ -225,7 +225,7 @@ export const AppLogos = [
     {
         Name: "Notion",
         ImageURL: "/Logos/Notion.svg",
-        href: "https://ui.shadcn.com/",
+        href: "https://notion.so/",
         Tage: "Software"
     },
 ];

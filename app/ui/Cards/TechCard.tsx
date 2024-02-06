@@ -40,7 +40,7 @@ const TechCard = ({
         <ArrowUpIcon className="w-6" />
       </a>
       <div className="relative flex items-center justify-between flex-1 md:absolute md:inset-x-6 md:bottom-6">
-        <p className="text-base font-semibold md:text-xl">{Name}</p>
+        <a href={href} target="__blank" className="text-base font-semibold md:text-xl">{Name}</a>
         <span
           data-glow
           className="inline-block rounded-full border-[1px] px-3 py-[6px] text-xs md:text-sm"

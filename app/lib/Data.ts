@@ -222,6 +222,12 @@ export const AppLogos = [
         href: "https://ui.shadcn.com/",
         Tage: "UI Library"
     },
+    {
+        Name: "Notion",
+        ImageURL: "/Logos/Notion.svg",
+        href: "https://ui.shadcn.com/",
+        Tage: "Software"
+    },
 ];
 
 export const CategorizedAppLogos = {

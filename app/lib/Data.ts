@@ -13,7 +13,7 @@ export const SocialLinks = [
     },
     {
         Name: "X (twitter)",
-        IdURL: "https://twitter.com/ehtisham_OO7",
+        IdURL: "https://twitter.com/ehtisham_dev",
         IconURL:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg",
     },

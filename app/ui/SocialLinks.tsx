@@ -93,7 +93,7 @@ const SocialLinks = () => {
         aria-label="X (Twitter)"
         target="_blank"
         className="block relative p-4 transition hover:text-primary duration-300 before:content-[''] before:rounded-xl hover:block before:absolute before:inset-0 before:opacity-0 before:scale-0 before:-z-[-10] hover:before:opacity-100 before:bg-secondary/50 before:border hover:before:scale-100 before:transition-all"
-        href="https://twitter.com/ehtisham_OO7"
+        href="https://twitter.com/ehtisham_dev"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

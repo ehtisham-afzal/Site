@@ -89,7 +89,7 @@ const page = () => {
               <a
                 className="text-foreground/90"
                 target="_blank"
-                href="https://twitter.com/ehtisham_OO7"
+                href="https://twitter.com/ehtisham_dev"
               >
                 Twitter
               </a>

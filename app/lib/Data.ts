@@ -92,7 +92,7 @@ export const AppLogos = [
     },
     {
         Name: "NodeJS ",
-        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        ImageURL: "/Logos/NodeJs.svg",
         href: "https://nodejs.org/",
         Tage: "RunTime"
     },
@@ -158,7 +158,7 @@ export const AppLogos = [
     },
     {
         Name: "TailwindCSS",
-        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        ImageURL: "/Logos/TailwindCss.svg",
         href: "https://tailwindcss.com",
         Tage: "CSS Framework"
     },

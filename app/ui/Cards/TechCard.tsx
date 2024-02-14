@@ -25,7 +25,7 @@ const TechCard = ({
 
       <div className="relative block h-[60px] w-[60px] origin-bottom transition duration-300 md:h-[100px] md:w-[100px] md:group-hover:-translate-y-1 md:group-hover:scale-[101%] backdrop-blur-sm rounded-xl bg-foreground/5 group-hover:bg-foreground/10 p-2">
         <Image
-          alt={`${Name} Image/Svg`}
+          alt={`Image/Svg ${Name}`}
           src={ImageURL}
           width={100}
           height={100}

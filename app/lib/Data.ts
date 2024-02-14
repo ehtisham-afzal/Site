@@ -145,6 +145,12 @@ export const AppLogos = [
         Tage: "Software"
     },
     {
+        Name: "PostMan",
+        ImageURL: "/Logos/Postman.svg",
+        href: "https://getpostman.com",
+        Tage: "Software"
+    },
+    {
         Name: "Npm ",
         ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
         href: "https://npmjs.com",
@@ -191,6 +197,12 @@ export const AppLogos = [
         ImageURL: "/Logos/react-router-mark-color-inverted.svg",
         href: "https://reactrouter.com/en/main",
         Tage: "SPA Routing"
+    },
+    {
+        Name: "Cloudinary ",
+        ImageURL: "/Logos/Cloudinary.svg",
+        href: "https://cloudinary.com",
+        Tage: "Cload Images"
     },
     {
         Name: "Vitest",

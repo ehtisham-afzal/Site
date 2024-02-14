@@ -97,7 +97,7 @@ const page = () => {
               <a
                 className="text-foreground/90"
                 target="_blank"
-                href="https://read.cv/ehtisham"
+                href="https://cv.ehtisham.dev"
               >
                 Resume
               </a>

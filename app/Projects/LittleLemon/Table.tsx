@@ -40,7 +40,7 @@ const Table = () => {
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/EHTISHAM-Afzal/LittleLemon"
+                    href="https://github.com/ehtisham-afzal/LittleLemon"
                   >
                     Github Repo
                   </a>

@@ -43,7 +43,7 @@ const page = () => {
               <a
                 className="text-foreground/90"
                 target="__blank"
-                href="https://github.com/EHTISHAM-Afzal"
+                href="https://github.com/ehtisham-afzal"
               >
                 GitHub profile
               </a>
@@ -67,7 +67,7 @@ const page = () => {
               <a
                 className="text-foreground/90"
                 target="__blank"
-                href="https://github.com/EHTISHAM-Afzal"
+                href="https://github.com/ehtisham-afzal"
               >
                 GitHub profile
               </a>

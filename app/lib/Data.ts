@@ -7,7 +7,7 @@ export const SocialLinks = [
     },
     {
         Name: "Github",
-        IdURL: "https://github.com/EHTISHAM-Afzal",
+        IdURL: "https://github.com/ehtisham-afzal",
         IconURL:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     },

@@ -84,7 +84,7 @@ const NaveBarDesktop = () => {
             <a
               className="w-7 flex items-center"
               target="_blank"
-              href="https://github.com/EHTISHAM-Afzal"
+              href="https://github.com/ehtisham-afzal"
             >
               <GitHubLogoIcon className="w-full h-full hover:text-gray-500" />
               <p className="sr-only">Github</p>

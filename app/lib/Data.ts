@@ -127,6 +127,12 @@ export const AppLogos = [
         Tage: "DataBase"
     },
     {
+        Name: "Neon",
+        ImageURL: "/Logos/Neon.svg",
+        href: "https://neon.tech",
+        Tage: "DataBase"
+    },
+    {
         Name: "Express",
         ImageURL: "/Logos/Express.svg",
         href: "https://expressjs.com/",

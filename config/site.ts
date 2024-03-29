@@ -1,7 +1,7 @@
 export const siteConfig = {
     name: "Ehtisham Afzal Web Dev",
     url: "https://ehtisham.dev",
-    ogImage: "https://https://www.ehtisham.dev/og.jpg",
+    ogImage: "https://www.ehtisham.dev/og.jpg",
     description: "Ehtisham Afzal Site",
     links: {
         linkedIn: "https://www.linkedin.com/in/ehtisham-afzal/",

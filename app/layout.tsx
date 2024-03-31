@@ -6,6 +6,7 @@ import { ThemeProvider } from "./ui/ThemeProvider";
 import Nav from "./ui/NavBar/Nav";
 import Footer from "./ui/Footer";
 import { siteConfig } from "../config/site";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: {
@@ -84,6 +85,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+      <Analytics/>
         <div className="w-full max-w-[1024px] self-center flex flex-col">
           <ThemeProvider attribute="class" defaultTheme="system">
             <Nav />

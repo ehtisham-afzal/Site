@@ -121,15 +121,21 @@ export const AppLogos = [
         Tage: "Languege"
     },
     {
-        Name: "MongoDB",
-        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
-        href: "https://www.mongodb.com/",
-        Tage: "DataBase"
-    },
-    {
         Name: "Neon",
         ImageURL: "/Logos/Neon.svg",
         href: "https://neon.tech",
+        Tage: "DataBase"
+    },
+    {
+        Name: "Drizzle",
+        ImageURL: "/Logos/drizzle.png",
+        href: "https://orm.drizzle.team/",
+        Tage: "O R M"
+    },
+    {
+        Name: "MongoDB",
+        ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        href: "https://www.mongodb.com/",
         Tage: "DataBase"
     },
     {

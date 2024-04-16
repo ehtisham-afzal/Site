@@ -13,7 +13,11 @@ const page = () => {
     <main className="">
       <PageHeader
         Title="A little bit about me"
-        Description="Who I am and what I do."
+        Description="My name is Ehtisham Afzal a junior web developer with a passion for creating engaging and
+        user-friendly web. I have experience in HTML, CSS, JavaScript, and
+        React, and I am always eager to learn new technologies and
+        frameworks. I enjoy working in a team and collaborating with other
+        developers, designers, and clients."
       />
 
       {/* section */}

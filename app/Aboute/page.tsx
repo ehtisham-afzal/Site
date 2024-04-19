@@ -6,6 +6,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "Aboute Ehtisham",
+  description : "Know ehtisham afzal who they are and what he doing"
 };
 
 const page = () => {
@@ -13,11 +14,7 @@ const page = () => {
     <main className="">
       <PageHeader
         Title="A little bit about me"
-        Description="My name is Ehtisham Afzal a junior web developer with a passion for creating engaging and
-        user-friendly web. I have experience in HTML, CSS, JavaScript, and
-        React, and I am always eager to learn new technologies and
-        frameworks. I enjoy working in a team and collaborating with other
-        developers, designers, and clients."
+        Description="Know aboute me who i am and what i do"
       />
 
       {/* section */}

@@ -7,6 +7,11 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Projects",
+  description: "Projects and Ideas I've Worked on",
+  openGraph: {
+    title: "Projects",
+    description: "Projects and Ideas I've Worked on",
+  },
 };
 
 const page = () => {

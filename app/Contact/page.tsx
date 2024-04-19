@@ -8,6 +8,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
+  description : "Get in touch with me an let's build something awesome."
 };
 
 const page = () => {

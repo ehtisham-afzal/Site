@@ -5,6 +5,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Tech Stack",
+  description: "The dev tools, Softwares, I use in my daily work",
+  openGraph: {
+    title: "Tech Stack",
+  },
 };
 
 const page = () => {

@@ -3,42 +3,61 @@ import React from "react";
 import { Card, CardHeader } from "../../../src/components/ui/card";
 import Link from "next/link";
 
-const ProjectCard = ({
-  Name,
-  Description,
-  ProjectIconUrl,
-  ProjectUrl,
-  ProjectImageUrl,
-  path
-}: {
+export type ProjectCardTypes = {
   Name: string;
   Description: string;
-  ProjectIconUrl: string;
-  ProjectUrl: string;
-  ProjectImageUrl: string;
-  path:string
-}) => {
+  Summary: string;
+  ProjectIconUrl?: string;
+  ProjectUrl?: string;
+  ProjectImageUrl?: string;
+  path: string;
+  Keywords?: string[];
+};
+
+const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
+  const {
+    Name,
+    Description,
+    Summary,
+    ProjectIconUrl,
+    ProjectUrl,
+    ProjectImageUrl,
+    path,
+    Keywords,
+  } = Data;
   return (
-    <Card className="relative overflow-hidden p-6 transition duration-100 lg:h-[565px] lg:p-16 lg:pe-0 rounded-3xl bg-card">
-      <div className="flex flex-col w-full h-full gap-4 lg:w-1/2">
-        <Link  className="w-fit" href={`/Projects/${path}`}>
-        <Image
-          alt={Name}
-          width="70"
-          height="70"
-          className="h-20"
-          src={ProjectIconUrl}
-        />
-        </Link>
-        <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
-        <p className="z-10 flex-1 text-muted-foreground text-pretty">
-          {Description.substring(0, 350)}
-          {Description.length > 350 ? (
-            <Link className="text-foreground" href={`/Projects/${path}`}>... Learn More</Link>
-          ) : (
-            ""
-          )}
-        </p>
+    <Card
+      className={`relative overflow-hidden p-6 transition duration-100 ${
+        ProjectImageUrl ? "h-[565px]" : "h-fit"
+      } lg:p-16 lg:pe-0 rounded-3xl bg-card`}
+    >
+      <div
+        className={`flex flex-col w-full h-full gap-4 ${
+          ProjectImageUrl ? "lg:w-1/2" : "lg:w-11/12"
+        }`}
+      >
+        {ProjectIconUrl && (
+          <Link className="w-fit text-primary" href={`/Projects/${path}`}>
+            <Image
+              alt={Name}
+              width="70"
+              height="70"
+              className="size-20"
+              src={ProjectIconUrl}
+            />
+          </Link>
+        )}
+        <div>
+          <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
+          <p>{Description}</p>
+        </div>
+        {/* set inner html summary description */}
+        {Summary && (
+          <div
+            className="z-10 flex-1 text-pretty prose"
+            dangerouslySetInnerHTML={{ __html: Summary }}
+          />
+        )}
         <a
           className="inline-flex items-center justify-start gap-2 mt-6 font-medium transition rounded-lg cursor-pointer group lg:mt-0"
           target="_blank"
@@ -62,18 +81,20 @@ const ProjectCard = ({
           </svg>
         </a>
       </div>
-      <Link
-        href={`/Projects/${path}`}
-        className="absolute -right-32 top-[10%] w-7/12 hidden rotate-3 hover:rotate-0 lg:block transition duration-300 ease-out hover:scale-110"
-      >
-        <Image
-          alt={`${Name} Image`}
-          width="457"
-          height="565"
-          className="object-cover w-full h-full rounded-xl"
-          src={ProjectImageUrl}
-        />
-      </Link>
+      {ProjectImageUrl && (
+        <Link
+          href={`/Projects/${path}`}
+          className={`absolute -right-32 top-[10%] w-7/12 hidden  hover:rotate-3 lg:block transition duration-300 ease-out hover:scale-110`}
+        >
+          <Image
+            alt={`${Name} Image`}
+            width="600"
+            height="450"
+            className="object-cover w-full h-full rounded-xl"
+            src={ProjectImageUrl}
+          />
+        </Link>
+      )}
     </Card>
   );
 };

@@ -30,25 +30,7 @@ const page = () => {
               user-friendly web. I have experience in HTML, CSS, JavaScript, and
               React, and I am always eager to learn new technologies and
               frameworks. I enjoy working in a team and collaborating with other
-              developers, designers, and clients. I have completed several
-              projects, such as a personal portfolio website, a FullStack
-              Ecommerce WebApp called{" "}
-              <a
-                className="text-foreground/90"
-                target="__blank"
-                href="https://littlelemon-sham.vercel.app/"
-              >
-                LittleLemon
-              </a>
-              , which you can see on my{" "}
-              <a
-                className="text-foreground/90"
-                target="__blank"
-                href="https://github.com/ehtisham-afzal"
-              >
-                GitHub profile
-              </a>
-              . I am looking for opportunities to grow my skills and contribute
+              developers, designers, and clients.I am looking for opportunities to grow my skills and contribute
               to meaningful web development projects.
             </p>
           </div>
@@ -62,8 +44,7 @@ const page = () => {
               JavaScript, and React, and I am always open to learning new
               technologies and frameworks. I enjoy working in a team and
               collaborating with other developers, designers, and clients. I
-              have completed several projects, such as a personal portfolio
-              website, a FullStack Ecommerce WebApp called LittleLemon, which
+              have completed several FullStack projects, which
               you can see on my{" "}
               <a
                 className="text-foreground/90"

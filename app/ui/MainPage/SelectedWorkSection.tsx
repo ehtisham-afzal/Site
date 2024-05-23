@@ -1,4 +1,4 @@
-import { Projects } from "../../lib/Data";
+import { FeaturedProjects } from "../../lib/Data";
 import ProjectCard from "../Cards/ProjectCard";
 
 const SelectedWorkSection = () => {
@@ -8,16 +8,8 @@ const SelectedWorkSection = () => {
         Selected work
       </h2>
       <div className="w-full space-y-4 md:space-y-8">
-        {Projects.map((project) => (
-          <ProjectCard
-            key={project.Name}
-            Name={project.Name}
-            Description={project.Description}
-            ProjectIconUrl={project.ProjectIconUrl}
-            ProjectUrl={project.ProjectUrl}
-            ProjectImageUrl={project.ProjectImageUrl}
-            path={project.path}
-          />
+        {FeaturedProjects.map((project) => (
+          <ProjectCard key={project.Name} Data={project} />
         ))}
       </div>
     </section>

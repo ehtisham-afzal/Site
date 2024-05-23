@@ -1,3 +1,5 @@
+import RxResumeExport from "../lib/RxResumeExport.json" // Importing the JSON file;
+
 export const SocialLinks = [
     {
         Name: "LinkedIn",
@@ -42,16 +44,63 @@ export const LittleLemonStack = [
     },
 ]
 
-export const Projects = [
-    {
-        Name: "Little Lemon",
-        Description: "LittleLemon is a mobile-first full-stack web application that I developed using the MERN stack (MongoDB, Express, React, and Node.js). I learned how to build the front end of this application from the Meta-Front-End Developer Professional Certificate course on Coursera, taught by meta engineers. This e-commerce application has many features, such as a table booking form that could store the booking data in a MongoDB database and use it to avoid table overbooking a universal cart, a smooth shopping experience, a product showcase, and support pages. I created this application from scratch to demonstrate my skills and knowledge in front-end development.",
-        ProjectIconUrl: "/Projects/LittleLemon.svg",
-        ProjectUrl: "https://littlelemon-sham.vercel.app",
-        ProjectImageUrl: "/Projects/LittleLemon.png",
-        path: "LittleLemon"
+type ProjectIconImage = {
+    Icon: string;
+    Image: string;
+};
+
+const ProjectsIconsImages: Record<string, ProjectIconImage> = {
+    "Little Lemon": {
+        Icon: "/Projects/LittleLemon.svg",
+        Image: "/Projects/LittleLemon.png",
+    },
+    "aitools.rest": {
+        Icon: "/Projects/aitools.avif",
+        Image: "/Projects/aitools_rest.png",
+    },
+    "KafalatYateem.com" : {
+        Icon: "/Projects/KafalatEYateemLogo.webp",
+        Image: "/Projects/kafalatyateem.png"
+    },
+    "ehtisham.dev" : {
+        Icon : "/EA.svg",
+        Image : "/og.jpg"
+    },
+    "OyeAI":{
+        Icon: "/Projects/oyeaiLogo.png",
+        Image: "/Projects/oyeai.png"
     }
+};
+
+const ImportedProjects = RxResumeExport.sections.projects.items.map((project) => {
+    return {
+        Name: project.name,
+        Description : project.description,
+        Summary: project.summary,
+        ProjectIconUrl: ProjectsIconsImages[project.name]?.Icon,
+        ProjectUrl: project.url.href,
+        ProjectImageUrl: ProjectsIconsImages[project.name]?.Image,
+        // remove spaces
+        path: project.name.replace(/\s/g, ""),
+        Keywords : project.keywords
+    };
+}
+)
+export const Projects = [
+    // {
+    //     Name: "Little Lemon",
+    //     Description: "LittleLemon is a mobile-first full-stack web application that I developed using the MERN stack (MongoDB, Express, React, and Node.js). I learned how to build the front end of this application from the Meta-Front-End Developer Professional Certificate course on Coursera, taught by meta engineers. This e-commerce application has many features, such as a table booking form that could store the booking data in a MongoDB database and use it to avoid table overbooking a universal cart, a smooth shopping experience, a product showcase, and support pages. I created this application from scratch to demonstrate my skills and knowledge in front-end development.",
+    //     ProjectIconUrl: "/Projects/LittleLemon.svg",
+    //     ProjectUrl: "https://littlelemon-sham.vercel.app",
+    //     ProjectImageUrl: "/Projects/LittleLemon.png",
+    //     path: "LittleLemon"
+    // },
+    ...ImportedProjects
 ]
+
+///  make dictionary of featured projects and then filter them from ImportedProjects
+const FPDectionary = ["KafalatYateem.com" , "aitools.rest" , "Little Lemon"]
+export const FeaturedProjects = ImportedProjects.filter(project => FPDectionary.includes(project.Name))
 
 export const AppLogos = [
     {

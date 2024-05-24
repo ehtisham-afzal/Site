@@ -20,28 +20,27 @@ const page = () => {
       {/* section */}
       <div className="grid w-full grid-cols-1 md:container md:grid-cols-12">
         <div className="flex flex-col col-span-full gap-y-12 md:col-span-8 md:pr-12">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 prose dark:prose-invert">
             <h3 className="font-semibold uppercase dark:text-medium-gray">
               Who I am
             </h3>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg ">
               I’m <span className="text-foreground/90">Ehtisham Afzal</span> A
               junior web developer with a passion for creating engaging and
               user-friendly web. I have experience in HTML, CSS, JavaScript, and
-              React, and I am always eager to learn new technologies and
+              React, NextJs and I am always eager to learn new technologies and
               frameworks. I enjoy working in a team and collaborating with other
               developers, designers, and clients.I am looking for opportunities to grow my skills and contribute
               to meaningful web development projects.
             </p>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 prose dark:prose-invert">
             <h3 className="font-semibold uppercase dark:text-medium-gray">
               What I do
             </h3>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg ">
               As a junior web developer, I love to create web applications that
-              are engaging and user-friendly. I have skills in HTML, CSS,
-              JavaScript, and React, and I am always open to learning new
+              are engaging and user-friendly. I am always open to learning new
               technologies and frameworks. I enjoy working in a team and
               collaborating with other developers, designers, and clients. I
               have completed several FullStack projects, which
@@ -57,9 +56,8 @@ const page = () => {
               to meaningful web development projects.
             </p>
           </div>
-          <div className="flex flex-col gap-2">
-            <p className="font-semibold uppercase dark:text-medium-gray"></p>
-            <p className="text-[18px] text-base text-muted-foreground">
+          <div className="flex flex-col gap-2 prose dark:prose-invert">
+            <p className="text-[18px] text-base ">
               Feel free to reach out via{" "}
               <a
                 className="text-foreground/90"
@@ -96,7 +94,7 @@ const page = () => {
           </div>
           <div className="flex flex-col gap-2">
             <p className="font-semibold uppercase dark:text-medium-gray"></p>
-            <h3 className="text-[18px] text-base text-muted-foreground">
+            <h3 className="text-[18px] text-base ">
               Let’s build something great,
             </h3>
           </div>

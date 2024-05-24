@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { Card, CardHeader } from "../../../src/components/ui/card";
 import Link from "next/link";
+import { Badge } from "@/components/ui/badge";
+import { ArrowSmallRightIcon } from "@heroicons/react/24/solid";
 
 export type ProjectCardTypes = {
   Name: string;
@@ -27,8 +29,8 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
   } = Data;
   return (
     <Card
-      className={`relative overflow-hidden p-6 transition duration-100 ${
-        ProjectImageUrl ? "h-[565px]" : "h-fit"
+      className={`relative overflow-hidden h-fit p-6 transition duration-100 ${
+        ProjectImageUrl ? "min-h-[565px]" : "h-fit"
       } lg:p-16 lg:pe-0 rounded-3xl bg-card`}
     >
       <div
@@ -37,7 +39,7 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
         }`}
       >
         {ProjectIconUrl && (
-          <Link className="w-fit text-primary" href={`/Projects/${path}`}>
+          <Link className="w-fit text-black dark:text-white" href={`/Projects/${path}`}>
             <Image
               alt={Name}
               width="70"
@@ -47,38 +49,30 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
             />
           </Link>
         )}
-        <div>
-          <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
-          <p>{Description}</p>
-        </div>
+        <h2 className="text-2xl font-extrabold lg:text-4xl">{Name}</h2>
+
         {/* set inner html summary description */}
         {Summary && (
           <div
-            className="z-10 flex-1 text-pretty prose"
+            className="z-10 flex-1 text-pretty prose dark:prose-invert lg:prose-lg"
             dangerouslySetInnerHTML={{ __html: Summary }}
           />
         )}
+        <div className="flex flex-wrap gap-2 py-2">
+          {Keywords &&
+            Keywords.map((keyword, index) => (
+              <Badge key={index} variant="secondary">
+                {keyword}
+              </Badge>
+            ))}
+        </div>
         <a
           className="inline-flex items-center justify-start gap-2 mt-6 font-medium transition rounded-lg cursor-pointer group lg:mt-0"
           target="_blank"
           href={ProjectUrl}
         >
           Visit Site
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            className="transition group-hover:translate-x-1"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M15.17 5a30.23 30.23 0 0 1 5.62 5.406c.14.174.21.384.21.594m-5.83 6a30.232 30.232 0 0 0 5.62-5.406A.949.949 0 0 0 21 11m0 0H3"
-            ></path>
-          </svg>
+          <ArrowSmallRightIcon className="w-5 h-5 group-hover:translate-x-2 transition-transform ease-in-out" />
         </a>
       </div>
       {ProjectImageUrl && (

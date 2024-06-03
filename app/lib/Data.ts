@@ -99,7 +99,7 @@ export const Projects = [
 ]
 
 ///  make dictionary of featured projects and then filter them from ImportedProjects
-const FPDectionary = ["KafalatYateem.com" , "aitools.rest" , "Little Lemon"]
+const FPDectionary = ["KafalatYateem.com" , "OyeAI" , "Little Lemon"]
 export const FeaturedProjects = ImportedProjects.filter(project => FPDectionary.includes(project.Name))
 
 export const AppLogos = [

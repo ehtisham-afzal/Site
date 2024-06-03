@@ -216,27 +216,24 @@
         "id": "projects",
         "items": [
           {
-            "id": "xr55whv1i7lyeorm0iu3th4g",
+            "id": "k0dwh34n8kvxr1lxnuum3499",
             "visible": true,
-            "name": "aitools.rest",
-            "description": "AI tools directory",
-            "date": "Apr 13 2024",
-            "summary": "<p>I have developed a modern platform dedicated to exploring AI capabilities. The website features a wide range of AI tools and applications, organized for easy navigation. Key features include powerful search capabilities using <strong>Algolia</strong>, reliable infrastructure <strong>Neon DB</strong>, efficient data management using <strong>Drizzle ORM</strong>, optimal performance <strong>Next.js </strong>deployed on <strong>Vercel</strong>, polished user experience using Radix UI components, and modern design elements using <strong>ShadCN</strong> ui.</p>",
+            "name": "OyeAI",
+            "description": "AI tools Directory",
+            "date": "May 5 2024",
+            "summary": "<p>A platform dedicated to exploring AI capabilities. The website features a wide range of AI tools and applications, simple and distributed infrastructure using <strong>Turso DB</strong>, efficient data management using <strong>Prisma ORM</strong>, optimal performance with <strong>Next.js</strong> deployed on <strong>Vercel</strong>, polished user experience using <strong>Radix UI</strong> components, and modern design elements using <strong>ShadCN UI</strong>.</p>",
             "keywords": [
+              "TypeScript",
               "Next.js",
               "React",
-              "Algolia",
-              "vercel",
-              "TypeScript",
-              "TailwindCSS",
-              "PostgreSQL",
-              "NeonDB",
-              "DrizzleORM",
-              "Cluodinary"
+              "Sqlite",
+              "Prisma",
+              "Vercel",
+              "Turso DB"
             ],
             "url": {
               "label": "",
-              "href": "https://aitools.rest"
+              "href": "https://oyeai.site"
             }
           },
           {
@@ -283,26 +280,30 @@
             }
           },
           {
-            "id": "k0dwh34n8kvxr1lxnuum3499",
+            "id": "xr55whv1i7lyeorm0iu3th4g",
             "visible": true,
-            "name": "OyeAI",
-            "description": "AI tools Directory",
-            "date": "May 5 2024",
-            "summary": "<p>A platform dedicated to exploring AI capabilities. The website features a wide range of AI tools and applications, simple and distributed infrastructure using <strong>Turso DB</strong>, efficient data management using <strong>Prisma ORM</strong>, optimal performance with <strong>Next.js</strong> deployed on <strong>Vercel</strong>, polished user experience using <strong>Radix UI</strong> components, and modern design elements using <strong>ShadCN UI</strong>.</p>",
+            "name": "aitools.rest",
+            "description": "AI tools directory",
+            "date": "Apr 13 2024",
+            "summary": "<p>I have developed a modern platform dedicated to exploring AI capabilities. The website features a wide range of AI tools and applications, organized for easy navigation. Key features include powerful search capabilities using <strong>Algolia</strong>, reliable infrastructure <strong>Neon DB</strong>, efficient data management using <strong>Drizzle ORM</strong>, optimal performance <strong>Next.js </strong>deployed on <strong>Vercel</strong>, polished user experience using Radix UI components, and modern design elements using <strong>ShadCN</strong> ui.</p>",
             "keywords": [
-              "TypeScript",
               "Next.js",
               "React",
-              "Sqlite",
-              "Prisma",
-              "Vercel",
-              "Turso DB"
+              "Algolia",
+              "vercel",
+              "TypeScript",
+              "TailwindCSS",
+              "PostgreSQL",
+              "NeonDB",
+              "DrizzleORM",
+              "Cluodinary"
             ],
             "url": {
               "label": "",
-              "href": "https://oyeai.site"
+              "href": "https://aitools.rest"
             }
           },
+
           {
             "id": "lpydvdabcchfr7w9dwcj4kg2",
             "visible": true,

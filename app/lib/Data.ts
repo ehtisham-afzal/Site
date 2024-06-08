@@ -58,15 +58,15 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
         Icon: "/Projects/aitools.avif",
         Image: "/Projects/aitools_rest.png",
     },
-    "KafalatYateem.com" : {
+    "KafalatYateem.com": {
         Icon: "/Projects/KafalatEYateemLogo.webp",
         Image: "/Projects/kafalatyateem.png"
     },
-    "ehtisham.dev" : {
-        Icon : "/EA.svg",
-        Image : "/og.jpg"
+    "ehtisham.dev": {
+        Icon: "/EA.svg",
+        Image: "/og.jpg"
     },
-    "OyeAI":{
+    "OyeAI": {
         Icon: "/Projects/oyeaiLogo.png",
         Image: "/Projects/oyeai.png"
     }
@@ -75,14 +75,14 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
 const ImportedProjects = RxResumeExport.sections.projects.items.map((project) => {
     return {
         Name: project.name,
-        Description : project.description,
+        Description: project.description,
         Summary: project.summary,
         ProjectIconUrl: ProjectsIconsImages[project.name]?.Icon,
         ProjectUrl: project.url.href,
         ProjectImageUrl: ProjectsIconsImages[project.name]?.Image,
         // remove spaces
         path: project.name.replace(/\s/g, ""),
-        Keywords : project.keywords
+        Keywords: project.keywords
     };
 }
 )
@@ -99,7 +99,7 @@ export const Projects = [
 ]
 
 ///  make dictionary of featured projects and then filter them from ImportedProjects
-const FPDectionary = ["KafalatYateem.com" , "OyeAI" , "Little Lemon"]
+const FPDectionary = ["KafalatYateem.com", "OyeAI", "Little Lemon"]
 export const FeaturedProjects = ImportedProjects.filter(project => FPDectionary.includes(project.Name))
 
 export const AppLogos = [
@@ -134,6 +134,12 @@ export const AppLogos = [
         Tage: "Language"
     },
     {
+        Name: "SQLite",
+        ImageURL: "/Logos/SQLite.svg",
+        href: "https://www.sqlite.org",
+        Tage: "Language"
+    },
+    {
         Name: "React",
         ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         href: "https://React.dev",
@@ -152,10 +158,28 @@ export const AppLogos = [
         Tage: "Framework"
     },
     {
+        Name: "T3 Stack",
+        ImageURL: "/Logos/T3Stack.svg",
+        href: "https://t3.gg",
+        Tage: "TechStack"
+    },
+    {
         Name: "Vercel",
         ImageURL: "/Logos/vercel.svg",
         href: "https://vercel.com/home",
         Tage: "Cloud"
+    },
+    {
+        Name: "Netlify",
+        ImageURL: "/Logos/Netlify.svg",
+        href: "https://www.netlify.com/",
+        Tage: "Cloud"
+    },
+    {
+        Name: "Framer",
+        ImageURL: "/Logos/Framer-motion.svg",
+        href: "https://framer.com",
+        Tage: "NoCode website builder"
     },
     {
         Name: "Astro",
@@ -176,9 +200,21 @@ export const AppLogos = [
         Tage: "DataBase"
     },
     {
+        Name: "Turso",
+        ImageURL: "/Logos/Turso.svg",
+        href: "https://turso.tech",
+        Tage: "DataBase"
+    },
+    {
         Name: "Drizzle",
         ImageURL: "/Logos/drizzle.png",
         href: "https://orm.drizzle.team/",
+        Tage: "O R M"
+    },
+    {
+        Name: "Prisma",
+        ImageURL: "/Logos/prisma.svg",
+        href: "https://www.prisma.io",
         Tage: "O R M"
     },
     {
@@ -206,6 +242,12 @@ export const AppLogos = [
         Tage: "Software"
     },
     {
+        Name: "Github Copilot",
+        ImageURL: "/Logos/GitHubCopilot.svg",
+        href: "https://github.com/features/copilot",
+        Tage: "AI Software"
+    },
+    {
         Name: "PostMan",
         ImageURL: "/Logos/Postman.svg",
         href: "https://getpostman.com",
@@ -215,6 +257,12 @@ export const AppLogos = [
         Name: "Npm ",
         ImageURL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
         href: "https://npmjs.com",
+        Tage: "Package Manager"
+    },
+    {
+        Name: "Pnpm ",
+        ImageURL: "/Logos/Pnpm.svg",
+        href: "https://pnpm.io",
         Tage: "Package Manager"
     },
     {
@@ -265,6 +313,20 @@ export const AppLogos = [
         href: "https://cloudinary.com",
         Tage: "Cload Images"
     },
+
+    {
+        Name: "Resend ",
+        ImageURL: "/Logos/Resend.svg",
+        href: "https://resend.com/",
+        Tage: "Mail Software"
+    },
+    {
+        Name: "Algolia ",
+        ImageURL: "/Logos/Algolia.svg",
+        href: "https://www.algolia.com/",
+        Tage: "Search Library"
+    },
+
     {
         Name: "Vitest",
         ImageURL: "/Logos/vitest.svg",
@@ -299,6 +361,12 @@ export const AppLogos = [
         Name: "Notion",
         ImageURL: "/Logos/Notion.svg",
         href: "https://notion.so/",
+        Tage: "Software"
+    },
+    {
+        Name: "Raindrop",
+        ImageURL: "/Logos/Raindrop.svg",
+        href: "https://raindrop.io/",
         Tage: "Software"
     },
 ];

@@ -213,7 +213,7 @@ export const AppLogos = [
     },
     {
         Name: "Prisma",
-        ImageURL: "/Logos/prisma.svg",
+        ImageURL: "/Logos/Prisma.svg",
         href: "https://www.prisma.io",
         Tage: "O R M"
     },

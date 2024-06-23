@@ -29,7 +29,7 @@ const TechCard = ({
           src={ImageURL}
           width={100}
           height={100}
-          className="w-full h-full rounded-lg overflow-hidden"
+          className="w-full h-full object-contain"
         />
       </div>
       <a

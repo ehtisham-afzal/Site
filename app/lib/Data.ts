@@ -69,6 +69,10 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
     "OyeAI": {
         Icon: "/Projects/oyeaiLogo.png",
         Image: "/Projects/oyeai.png"
+    },
+    "ChatBot" : {
+        Icon: "/Projects/oyeaiLogo.png",
+        Image: "/Projects/ChatBot.png"
     }
 };
 
@@ -99,7 +103,7 @@ export const Projects = [
 ]
 
 ///  make dictionary of featured projects and then filter them from ImportedProjects
-const FPDectionary = ["KafalatYateem.com", "OyeAI", "Little Lemon"]
+const FPDectionary = ["ChatBot", "OyeAI", "Little Lemon"]
 export const FeaturedProjects = ImportedProjects.filter(project => FPDectionary.includes(project.Name))
 
 export const AppLogos = [

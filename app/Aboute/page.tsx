@@ -107,7 +107,7 @@ const page = () => {
               alt="Portrait of Ehtisham Afzal"
               width="320"
               height="400"
-              src="/ehtisham.jpg"
+              src="/ehtisham.webp"
             />
           </div>
           <CTAButton className="hidden md:w-full md:flex" />

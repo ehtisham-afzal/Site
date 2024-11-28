@@ -12,7 +12,7 @@ const HeroSection = () => {
             className="object-cover w-24 h-24 mb-3 p-1 backdrop-blur-sm bg-secondary/50 rounded-full md:hidden"
             width={96}
             height={96}
-            src="/ehtisham.jpg"
+            src="/ehtisham.webp"
             alt="Ehtisham"
           />
           <h1 className="text-[46px] font-extrabold leading-[120%] text-foreground/50 md:text-left md:text-[80px]">
@@ -45,7 +45,7 @@ const HeroSection = () => {
         </div>
       </div>
       <Image
-        src="/ehtisham.jpg"
+        src="/ehtisham.webp"
         alt="Ehtisham Afzal"
         width="340"
         height="385"

@@ -73,7 +73,11 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
     "ChatBot" : {
         Icon: "/Projects/oyeaiLogo.png",
         Image: "/Projects/ChatBot.png"
-    }
+    },
+    "SAAS landing page template" : {
+        Icon: "/Projects/SAAS-landing-page-template-logo.png",
+        Image: "/Projects/SAAS-landing-page-template.jpeg"
+    },
 };
 
 const ImportedProjects = RxResumeExport.sections.projects.items.map((project) => {
@@ -103,7 +107,7 @@ export const Projects = [
 ]
 
 ///  make dictionary of featured projects and then filter them from ImportedProjects
-const FPDectionary = ["ChatBot", "OyeAI", "Little Lemon"]
+const FPDectionary = ["SAAS landing page template", "OyeAI", "Little Lemon"]
 export const FeaturedProjects = ImportedProjects.filter(project => FPDectionary.includes(project.Name))
 
 export const AppLogos = [

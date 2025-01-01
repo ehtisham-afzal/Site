@@ -5,7 +5,7 @@ const GetToKnowMeSection = () => {
   return (
     <section className="w-full mt-20 md:mt-40">
       <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-5xl scroll-m-20">
-        Get to know me
+        About Me
       </h2>
 
       <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2">

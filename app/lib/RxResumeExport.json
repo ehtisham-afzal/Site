@@ -216,6 +216,29 @@
       "id": "projects",
       "items": [
         {
+          "id": "kqeh9o72ut59e6s0k0p0fyjf",
+          "visible": true,
+          "name": "Muattar Store",
+          "description": "Multi tenet webstore",
+          "date": "Dec - 2024",
+          "summary": "<p>A modern e-commerce platform showcasing exquisite crochet products. Built with <strong>Next.js</strong> and powered by <strong>Medusa.js</strong> for advanced commerce and checkout functionality, it leverages <strong>Sanity CMS</strong> for flexible content management and <strong>PostgreSQL</strong> for secure data storage. Integrated with <strong>Resend</strong> for transactional emails, <strong>Cloudflare R2</strong> for efficient asset storage, and <strong>Redis</strong> for caching, the platform ensures smooth performance. The backend is deployed on <strong>Railway</strong>, and the frontend is hosted on <strong>Vercel</strong> for unmatched scalability and reliability.</p>",
+          "keywords": [
+            "Medusa.js",
+            "Next.js",
+            "Sanity CMS",
+            "vercel",
+            "railway",
+            "Resend",
+            "Cloudflare R2",
+            "Redis",
+            "PostgreSQL"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://muattar-store.vercel.app"
+          }
+        },
+        {
           "id": "irqk2yekft4vwiziq1w0kl0d",
           "visible": true,
           "name": "SAAS landing page template",

@@ -27,7 +27,7 @@ const FormSchema = z.object({
   message: z.string().min(10, { message: "Please provide more information" }),
 });
 
-export const AuthinticatMessage = (
+export const AuthinticatMessage = async (
   prevState: State | undefined,
   formData: FormData
 ) => {
@@ -53,7 +53,7 @@ export const AuthinticatMessage = (
         to: ["shaminterprise@gmail.com"],
         subject: formData.get('subject') ? formData.get('subject') as string : 'From website',
         text: formData.get('message') as string,
-        react: EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string, Gmail: formData.get('email') as string }),
+        react: await EmailTemplate({ Name: formData.get('name') as string, Message: formData.get('message') as string, Gmail: formData.get('email') as string }),
       })
       .catch((Error) => {
         throw new Error(Error)

@@ -42,9 +42,9 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
           <Link className="w-fit text-black dark:text-white" href={`/Projects/${path}`}>
             <Image
               alt={Name}
-              width="70"
-              height="70"
-              className="size-20"
+              width="150"
+              height="150"
+              className="size-20 overflow-hidden rounded-lg"
               src={ProjectIconUrl}
             />
           </Link>
@@ -82,9 +82,10 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
         >
           <Image
             alt={`${Name} Image`}
-            width="600"
-            height="450"
-            className="object-cover w-full h-full rounded-xl"
+            width="1200"
+            height="900"
+            quality={100}
+            className="object-cover w-full rounded-xl"
             src={ProjectImageUrl}
           />
         </Link>

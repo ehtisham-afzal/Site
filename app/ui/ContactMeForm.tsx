@@ -1,7 +1,8 @@
+import { useActionState } from "react";
 "use client";
 import { Button } from "../../src/components/ui/button";
 import { Separator } from "../../src/components/ui/separator";
-import { useFormState } from "react-dom";
+import "react-dom";
 import { AuthinticatMessage } from "../lib/Actions";
 import {
   EnvelopeIcon,
@@ -10,7 +11,7 @@ import {
 import { useFormStatus } from "react-dom";
 
 const ContactMeForm = () => {
-  const [ErrorMessage, dispatch] = useFormState(AuthinticatMessage, undefined);
+  const [ErrorMessage, dispatch] = useActionState(AuthinticatMessage, undefined);
   const { pending } = useFormStatus();
   return (
     <form action={dispatch} className="px-6 mb-4 relative">

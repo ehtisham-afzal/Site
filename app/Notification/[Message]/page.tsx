@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   title: "Notfications",
 };
 
-const page = ({ params }: { params: { Message: string } }) => {
+const page = async (props: { params: Promise<{ Message: string }> }) => {
+  const params = await props.params;
   if (params.Message == "FailedToSend") {
     return (
       <div className="h-screen flex flex-col md:flex-row-reverse items-center justify-center">

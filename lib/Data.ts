@@ -66,7 +66,7 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
     Icon: "/Projects/KafalatEYateemLogo.webp",
     Image: "/Projects/kafalatyateem.png",
   },
-  "ehtisham.dev": {
+  "ehtisham.vercel.app": {
     Icon: "/EA.svg",
     Image: "/og.jpg",
   },

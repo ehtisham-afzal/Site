@@ -1,10 +1,10 @@
-import { ModeToggle } from "../ModeToggle";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
+import ModeToggleButton from "../ModeToggleButton";
 
 const NaveBarDesktop = () => {
   return (
@@ -71,7 +71,7 @@ const NaveBarDesktop = () => {
             <div className="absolute right-0 top-full flex w-[150px] justify-center perspective-[2000px]"></div>
           </nav>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 pr-2">
           <div className="flex gap-6 text-foreground">
             <a
               className="w-7 flex items-center"
@@ -99,7 +99,7 @@ const NaveBarDesktop = () => {
             </a>
           </div>
           <div className="h-6 w-[1px] bg-primary/50"></div>
-          <ModeToggle />
+          <ModeToggleButton />
         </div>
       </div>
     </div>

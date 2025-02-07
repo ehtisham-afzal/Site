@@ -1,7 +1,7 @@
 'use server'
 import { Resend } from "resend";
 import { z } from "zod";
-import { EmailTemplate } from "../ui/EmailTemplate";
+import { EmailTemplate } from "../components/EmailTemplate";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
@@ -49,7 +49,7 @@ export const AuthinticatMessage = async (
   if (ValidateFields.success) {
     resend.emails
       .send({
-        from: `${formData.get('name')}<notifications@ehtisham.dev>`,
+        from: `${formData.get('name')}<notifications@ehtisham.vercel.app>`,
         to: ["shaminterprise@gmail.com"],
         subject: formData.get('subject') ? formData.get('subject') as string : 'From website',
         text: formData.get('message') as string,

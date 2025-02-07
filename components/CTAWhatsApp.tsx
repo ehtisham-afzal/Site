@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader } from "../../src/components/ui/card";
-import { Input } from "../../src/components/ui/input";
+import { Card, CardContent, CardDescription, CardHeader } from "./ui/card";
+import { Input } from "./ui/input";
 import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 
 const CTAWhatsApp = () => {
@@ -20,7 +20,7 @@ const CTAWhatsApp = () => {
             required
             minLength={4}
             placeholder="Youre message"
-            className="w-full h-10 py-2 rounded-sm bg-secondary/70"
+            className="w-full h-10 py-2 rounded-sm bg-secondary/70 pr-32"
             onChange={(e) => setMessage(e.target.value)}
           />
           <a

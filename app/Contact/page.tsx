@@ -1,9 +1,9 @@
-import CTAWhatsApp from "../ui/CTAWhatsApp";
-import ContactMeForm from "../ui/ContactMeForm";
-import PageHeader from "../ui/PageHeader";
-import SocialLinks from "../ui/SocialLinks";
-import { Card } from "../../src/components/ui/card";
-import { Separator } from "../../src/components/ui/separator";
+import CTAWhatsApp from "../../components/CTAWhatsApp";
+import ContactMeForm from "../../components/ContactMeForm";
+import PageHeader from "../../components/PageHeader";
+import SocialLinks from "../../components/SocialLinks";
+import { Card } from "../../components/ui/card";
+import { Separator } from "../../components/ui/separator";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,5 +1,5 @@
-import PageHeader from "../ui/PageHeader";
-import CTAButton from "../../src/components/ui/CTAButton";
+import PageHeader from "../../components/PageHeader";
+import CTAButton from "../../components/ui/CTAButton";
 import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";

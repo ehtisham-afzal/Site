@@ -1,5 +1,5 @@
 import React from "react";
-import { Separator } from "../../src/components/ui/separator";
+import { Separator } from "./ui/separator";
 
 const PageHeader = ({
   Title,

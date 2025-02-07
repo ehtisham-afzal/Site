@@ -1,7 +1,7 @@
 "use client";
 import { useActionState } from "react";
-import { Button } from "../../src/components/ui/button";
-import { Separator } from "../../src/components/ui/separator";
+import { Button } from "./ui/button";
+import { Separator } from "./ui/separator";
 import "react-dom";
 import { AuthinticatMessage } from "../lib/Actions";
 import {

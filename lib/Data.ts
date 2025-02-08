@@ -1,4 +1,4 @@
-import RxResumeExport from "../lib/RxResumeExport.json"; // Importing the JSON file;
+import RxResumeExport from "@/public/RxResumeExport.json"; // Importing the JSON file;
 
 export const SocialLinks = [
   {
@@ -21,32 +21,7 @@ export const SocialLinks = [
   },
 ];
 
-export const LittleLemonStack = [
-  {
-    Name: "React",
-    ImageURL:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-  {
-    Name: "Express",
-    ImageURL:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-  },
-  {
-    Name: "MongoDB",
-    ImageURL:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
-  },
-  {
-    Name: "Redux",
-    ImageURL:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-  },
-  {
-    Name: "ShadCN-UI",
-    ImageURL: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
-  },
-];
+
 
 type ProjectIconImage = {
   Icon: string;
@@ -86,9 +61,17 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
     Icon: "/Projects/Muattar-Store-Logo.jpg",
     Image: "/Projects/Muattar-Store.webp",
   },
+  "Rich text editor": {
+    Icon: "/Projects/rich-text-editor-logo.svg",
+    Image: "/Projects/rich-text-editor.webp",
+  },
+  "Mughal Khel Family App": {
+    Icon: "/Projects/FamilyAppLogo.webp",
+    Image: "/Projects/FamilyApp.webp",
+  },
 };
 
-const ImportedProjects = RxResumeExport.sections.projects.items.map(
+export const Projects = RxResumeExport.sections.projects.items.map(
   (project) => {
     return {
       Name: project.name,
@@ -103,26 +86,16 @@ const ImportedProjects = RxResumeExport.sections.projects.items.map(
     };
   }
 );
-export const Projects = [
-  // {
-  //     Name: "Little Lemon",
-  //     Description: "LittleLemon is a mobile-first full-stack web application that I developed using the MERN stack (MongoDB, Express, React, and Node.js). I learned how to build the front end of this application from the Meta-Front-End Developer Professional Certificate course on Coursera, taught by meta engineers. This e-commerce application has many features, such as a table booking form that could store the booking data in a MongoDB database and use it to avoid table overbooking a universal cart, a smooth shopping experience, a product showcase, and support pages. I created this application from scratch to demonstrate my skills and knowledge in front-end development.",
-  //     ProjectIconUrl: "/Projects/LittleLemon.svg",
-  //     ProjectUrl: "https://littlelemon-sham.vercel.app",
-  //     ProjectImageUrl: "/Projects/LittleLemon.png",
-  //     path: "LittleLemon"
-  // },
-  ...ImportedProjects,
-];
 
-///  make dictionary of featured projects and then filter them from ImportedProjects
+
+///  make dictionary of featured projects and then filter them from Projects
 const FPDectionary = [
+  "Rich text editor",
   "Muattar Store",
-  "SAAS landing page template",
   "OyeAI",
   "Little Lemon",
 ];
-export const FeaturedProjects = ImportedProjects.filter((project) =>
+export const FeaturedProjects = Projects.filter((project) =>
   FPDectionary.includes(project.Name)
 );
 
@@ -639,3 +612,31 @@ export const CategorizedAppLogos = {
     },
   ],
 };
+
+
+export const LittleLemonStack = [
+  {
+    Name: "React",
+    ImageURL:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    Name: "Express",
+    ImageURL:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
+  {
+    Name: "MongoDB",
+    ImageURL:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+  },
+  {
+    Name: "Redux",
+    ImageURL:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  {
+    Name: "ShadCN-UI",
+    ImageURL: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
+  },
+];

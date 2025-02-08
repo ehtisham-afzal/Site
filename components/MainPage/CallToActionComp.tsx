@@ -13,7 +13,7 @@ const CallToActionComp = () => {
           <br className="hidden lg:inline-block" /> I’m ready when you are.
         </p>
       </div>
-      <CTAButton />
+      <CTAButton className="w-full sm:w-fit" />
     </section>
   );
 };

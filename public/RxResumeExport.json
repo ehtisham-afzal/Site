@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ehtisham Afzal",
-    "headline": "Web Developer",
+    "headline": "Junior Full-stack Web Developer",
     "email": "khaj3172@gmail.com",
     "phone": "+92 3459695962",
     "location": "KPK Pakistan",
@@ -29,7 +29,7 @@
       "separateLinks": true,
       "visible": true,
       "id": "summary",
-      "content": "<p><strong>A front-end developer, based in Pakistan. specializing in full-stack web applications using JavaScript, TypeScript, React, Next.js, and Node.js. I love building Web-Applications that are user-friendly, simple and delightful.</strong></p>"
+      "content": "<p><strong>A front-end developer. specializing in full-stack web applications using JavaScript, TypeScript, React, Next.js, and Node.js. I love building Web-Applications that are user-friendly, simple and delightful.</strong></p>"
     },
     "awards": {
       "name": "Awards",
@@ -120,7 +120,7 @@
           "position": "software engineer",
           "location": "Pakistan",
           "date": "Oct 2023 - Present",
-          "summary": "<p>Kafalat e Yateem Foundation Malakand is an NGO for orphans. I designed and developed a <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://kafalatyateem.com/\">website</a> for them. Some key features of the website include <strong>online donation</strong> functionality, an inbuilt content management system with <strong>Sanity CMS</strong>, dynamic data using <strong>PostgreSQL</strong> <strong>Neon DB</strong> with <strong>Drizzle ORM</strong>, and much more.<br><br><strong>React, Node.js, Next.js, Tailwind CSS, SSR, Vercel, PostgreSQL, Figma  Sanity CMS</strong></p>",
+          "summary": "<p>Kafalat e Yateem Foundation Malakand is an NGO for orphans. I designed and developed a <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://kafalatyateem.com/\">website</a> for them. Some key features of the website include <strong>online donation</strong> functionality, an inbuilt content management system with <strong>Sanity CMS</strong>, dynamic data using <strong>PostgreSQL</strong> <strong>Neon DB</strong> with <strong>Drizzle ORM</strong>, and much more.<br><strong>React, Node.js, Next.js, Tailwind CSS, SSR, Vercel, PostgreSQL, Figma  Sanity CMS</strong></p>",
           "url": {
             "label": "",
             "href": "https://kafalatyateem.com"
@@ -216,6 +216,50 @@
       "id": "projects",
       "items": [
         {
+          "id": "k4orp5iknl1ww2ye4obk5ei0",
+          "visible": true,
+          "name": "Mughal Khel Family App",
+          "description": "",
+          "date": "Jan 2025",
+          "summary": "<p>Created an intuitive platform that unites Mughal Khel members by preserving their heritage and lineage. The app features a digital Shajara Nasab, <strong>secure login  </strong>with next<strong> Auth.js</strong>, personalized theme options, enhanced <strong>mapping with Leaflet</strong>, rich family tree visualization through <strong>React Flow</strong>, and detailed family profiles. It also includes a <strong>blogging feature</strong> for sharing stories and updates, and a rich text editor built on <strong>TipTap</strong>. Integrated with <strong>Cloudinary </strong>for media management and <strong>Shadcn/UI</strong> for a seamless user experience, the app is deployed on <strong>Vercel</strong> ensuring top-notch scalability and reliability.</p>",
+          "keywords": [
+            "React",
+            "Next.js15",
+            "Leaflet",
+            "React Flow",
+            "TipTap",
+            "libSQL Turso-DB",
+            "Cloudinary",
+            "Shadcn/UI",
+            "Vercel",
+            "Auth.js"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://mughalkhel.vercel.app"
+          }
+        },
+        {
+          "id": "u9mqg7n2pe4ovpp7sakf7eys",
+          "visible": true,
+          "name": "Rich text editor",
+          "description": "TipTap Rich Text Editor with shadcn/UI Components",
+          "date": "Jan 2025",
+          "summary": "<p>Developed a sophisticated rich-text editor leveraging <strong>TipTap</strong> and <strong>shadcn/UI</strong> components. Built with <strong>React</strong> and <strong>Next.js 15</strong>, this editor integrates seamlessly into any React project with a single command, thanks to the <strong>shadcn-cli</strong>. Key features include <strong>rich text formatting</strong> (<strong>bold</strong>, <em>italic</em>, <u>underline</u>), <strong>multiple heading levels</strong>, <strong>ordered and unordered lists</strong>, <strong>text alignment options</strong>, <strong>image uploads and management</strong>, <strong>text color and background customization</strong>, and <strong>search and replace functionality</strong>. Deployed on <strong>Vercel</strong>, the editor ensures unmatched scalability and reliability. Inspired by the shadcn-UI site, it offers a user-friendly interface and comprehensive features.</p>",
+          "keywords": [
+            "Next.js",
+            "Shadcn/UI",
+            "shadcn-cli",
+            "vercel-V0",
+            "Tiptap",
+            "vercel"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://tiptap-shadcn.vercel.app/"
+          }
+        },
+        {
           "id": "kqeh9o72ut59e6s0k0p0fyjf",
           "visible": true,
           "name": "Muattar Store",
@@ -302,8 +346,8 @@
         {
           "id": "rgw5k71kzqkf6c8vqbtqa49c",
           "visible": true,
-          "name": "ehtisham.vercel.app",
-          "description": "My personal website",
+          "name": "My personal site",
+          "description": "",
           "date": "Jan 10 2024",
           "summary": "<p>My personal website serves as a platform to present my ongoing projects, share insightful blogs, and provide information about my tech stack and contact details. The website is skillfully crafted with<strong> TypeScript, Next.js, React, TailwindCSS, </strong>and<strong> Resend.</strong></p>",
           "keywords": [
@@ -373,7 +417,7 @@
           "name": "Little Lemon",
           "description": "A MERN Stack E Commerce Web Application",
           "date": " Aug 21 2023",
-          "summary": "<p>LittleLemon is a mobile-first <strong>full-stack</strong> web application that I developed using the <strong>MERN </strong>stack . I learned how to build the front end of this application from the <strong>Meta-Front-End Developer</strong> Professional Certificate course on Coursera <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-foreground\" href=\"https://www.ehtisham.vercel.app/Projects/LittleLemon\">... LearnMore</a></p>",
+          "summary": "<p>LittleLemon is a mobile-first <strong>full-stack</strong> web application that I developed using the <strong>MERN </strong>stack . I learned how to build the front end of this application from the <strong>Meta-Front-End Developer</strong> Professional Certificate course on Coursera <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-foreground\" href=\"https://www.ehtisham.dev/Projects/LittleLemon\">... LearnMore</a></p>",
           "keywords": [
             "React",
             "MongoDB",
@@ -413,7 +457,7 @@
           "name": "Projects i made while learning new programing languages, frameworks , libraries, packages",
           "description": "",
           "date": "",
-          "summary": "<ul><li><p><strong>Drizzle Neon NextJs TodoApp | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/drizzle-neon-nextjs-todo-app\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://drizzle-todos.vercel.app\">Website Link</a></p><p>Made this project while learning Drizzle ORM</p><p><strong>Tags</strong>: Drizzle ORM, NeomDB, NextJS</p></li><li><p><strong>Portfolio-site Astro | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/portfolio-with-astro\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://ehtisham.vercel.app/\">Website Link</a></p><p>Made this project while learning Astro framework</p><p><strong>Tags</strong>: Astro framework, Markdown, ShadCN UI, TailwindCSS</p></li><li><p><strong>Hacker News Job Board | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/hackerNewsJobBoard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamjobboard.netlify.app/\">Website Link</a></p><p> Made this project while practicing APIs</p><p><strong>Tags</strong>: CSS3, HackerNewsAPI, React, TypeScript, Vite</p></li><li><p><strong>CV Website | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cv\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cv.ehtisham.vercel.app/\">Website Link</a></p><p> This project is forked from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/BartoszJarocki/cv%29\">BartoszJarocki/cv</a> and configured for myself</p><p><strong>Tags</strong>: NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>PromptShare | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/prompt-share\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://promptopia-sham.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs Pages router</p><p><strong>Tags</strong>: NextJs Pages router, TailwindCSS, mongoDB, mongoose</p></li><li><p><strong>Next Js Dashboard | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/nextjs-dashboard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://proj-dashboard.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs App Router from nextjs documentation</p><p><strong>Tags</strong>: CSS3, NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>Cluodinary Uploader | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cloadnayUploader-\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cloadnary-uploader.vercel.app/\">Website Link</a></p><p>Made this project while learning the Cluodinary Media database</p><p><strong>Tags</strong>: Cluodinary, CodeSandbox, Vite</p></li><li><p><strong>Van life | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/van-project\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamxyz.netlify.app/\">Website Link</a></p><p>Made this project while learning React-router-dom from bobzerol on Scrimba</p><p><strong>Tags</strong>: React-router-dom, Vite</p></li><li><p><strong>Redux Blogs | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/ReduxQuerry\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://reduxblogs.netlify.app/\">Website Link</a></p><p>Made this project while learning Redux client-side state management, Redux-toolkit, Redux-query</p><p><strong>Tags</strong>: Redux, Redux-query, Redux Toolkit</p></li></ul>",
+          "summary": "<ul><li><p><strong>Drizzle Neon NextJs TodoApp | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/drizzle-neon-nextjs-todo-app\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://drizzle-todos.vercel.app\">Website Link</a></p><p>Made this project while learning Drizzle ORM</p><p><strong>Tags</strong>: Drizzle ORM, NeomDB, NextJS</p></li><li><p><strong>Portfolio-site Astro | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/portfolio-with-astro\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://ehtisham.vercel.app/\">Website Link</a></p><p>Made this project while learning Astro framework</p><p><strong>Tags</strong>: Astro framework, Markdown, ShadCN UI, TailwindCSS</p></li><li><p><strong>Hacker News Job Board | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/hackerNewsJobBoard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamjobboard.netlify.app/\">Website Link</a></p><p> Made this project while practicing APIs</p><p><strong>Tags</strong>: CSS3, HackerNewsAPI, React, TypeScript, Vite</p></li><li><p><strong>CV Website | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cv\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cv.ehtisham.dev/\">Website Link</a></p><p> This project is forked from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/BartoszJarocki/cv%29\">BartoszJarocki/cv</a> and configured for myself</p><p><strong>Tags</strong>: NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>PromptShare | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/prompt-share\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://promptopia-sham.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs Pages router</p><p><strong>Tags</strong>: NextJs Pages router, TailwindCSS, mongoDB, mongoose</p></li><li><p><strong>Next Js Dashboard | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/nextjs-dashboard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://proj-dashboard.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs App Router from nextjs documentation</p><p><strong>Tags</strong>: CSS3, NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>Cluodinary Uploader | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cloadnayUploader-\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cloadnary-uploader.vercel.app/\">Website Link</a></p><p>Made this project while learning the Cluodinary Media database</p><p><strong>Tags</strong>: Cluodinary, CodeSandbox, Vite</p></li><li><p><strong>Van life | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/van-project\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamxyz.netlify.app/\">Website Link</a></p><p>Made this project while learning React-router-dom from bobzerol on Scrimba</p><p><strong>Tags</strong>: React-router-dom, Vite</p></li><li><p><strong>Redux Blogs | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/ReduxQuerry\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://reduxblogs.netlify.app/\">Website Link</a></p><p>Made this project while learning Redux client-side state management, Redux-toolkit, Redux-query</p><p><strong>Tags</strong>: Redux, Redux-query, Redux Toolkit</p></li></ul>",
           "keywords": [],
           "url": {
             "label": "Public Repositories",
@@ -440,7 +484,7 @@
     },
     "skills": {
       "name": "using",
-      "columns": 2,
+      "columns": 5,
       "separateLinks": true,
       "visible": true,
       "id": "skills",
@@ -488,7 +532,7 @@
         {
           "id": "bsziciaqdbaa2jyc9a3hm3et",
           "visible": true,
-          "name": "Neon DB",
+          "name": "Redis",
           "description": "",
           "level": 0,
           "keywords": []
@@ -664,7 +708,15 @@
         {
           "id": "k81734giokxqz9vba1ze6meg",
           "visible": true,
-          "name": "And many more",
+          "name": "Medusa.js",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "cih73srtkykq0gscg5uu024s",
+          "visible": true,
+          "name": "Cursor",
           "description": "",
           "level": 0,
           "keywords": []
@@ -682,11 +734,11 @@
           {
             "id": "x4g5tacc0j7chlhu2vweta8r",
             "visible": true,
-            "name": "Projects i made while learning new programing languages, frameworks , libraries, packages",
+            "name": "",
             "description": "",
             "date": "",
             "location": "",
-            "summary": "<ul><li><p><strong>Drizzle Neon NextJs TodoApp | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/drizzle-neon-nextjs-todo-app\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://drizzle-todos.vercel.app\">Website Link</a></p><p>Made this project while learning Drizzle ORM</p><p><strong>Tags</strong>: Drizzle ORM, NeomDB, NextJS</p></li><li><p><strong>Portfolio-site Astro | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/portfolio-with-astro\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://ehtisham.vercel.app/\">Website Link</a></p><p>Made this project while learning Astro framework</p><p><strong>Tags</strong>: Astro framework, Markdown, ShadCN UI, TailwindCSS</p></li><li><p><strong>Hacker News Job Board | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/hackerNewsJobBoard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamjobboard.netlify.app/\">Website Link</a></p><p> Made this project while practicing APIs</p><p><strong>Tags</strong>: CSS3, HackerNewsAPI, React, TypeScript, Vite</p></li><li><p><strong>CV Website | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cv\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cv.ehtisham.vercel.app/\">Website Link</a></p><p> This project is forked from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/BartoszJarocki/cv%29\">BartoszJarocki/cv</a> and configured for myself</p><p><strong>Tags</strong>: NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>PromptShare | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/prompt-share\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://promptopia-sham.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs Pages router</p><p><strong>Tags</strong>: NextJs Pages router, TailwindCSS, mongoDB, mongoose</p></li><li><p><strong>Next Js Dashboard | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/nextjs-dashboard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://proj-dashboard.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs App Router from nextjs documentation</p><p><strong>Tags</strong>: CSS3, NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>Cluodinary Uploader | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cloadnayUploader-\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cloadnary-uploader.vercel.app/\">Website Link</a></p><p>Made this project while learning the Cluodinary Media database</p><p><strong>Tags</strong>: Cluodinary, CodeSandbox, Vite</p></li><li><p><strong>Van life | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/van-project\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamxyz.netlify.app/\">Website Link</a></p><p>Made this project while learning React-router-dom from bobzerol on Scrimba</p><p><strong>Tags</strong>: React-router-dom, Vite</p></li><li><p><strong>Redux Blogs | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/ReduxQuerry\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://reduxblogs.netlify.app/\">Website Link</a></p><p>Made this project while learning Redux client-side state management, Redux-toolkit, Redux-query</p><p><strong>Tags</strong>: Redux, Redux-query, Redux Toolkit</p></li></ul>",
+            "summary": "<h2>Projects i made while learning new programing languages, frameworks , libraries, packages</h2><ul><li><p><strong>Drizzle Neon NextJs TodoApp | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/drizzle-neon-nextjs-todo-app\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://drizzle-todos.vercel.app\">Website Link</a></p></li><li><p>Made this project while learning Drizzle ORM</p><p><strong>Tags</strong>: Drizzle ORM, NeomDB, NextJS</p></li><li><p><strong>Portfolio-site Astro | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/portfolio-with-astro\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://ehtisham.vercel.app/\">Website Link</a></p><p>Made this project while learning Astro framework</p><p><strong>Tags</strong>: Astro framework, Markdown, ShadCN UI, TailwindCSS</p></li><li><p><strong>Hacker News Job Board | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/hackerNewsJobBoard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamjobboard.netlify.app/\">Website Link</a></p><p> Made this project while practicing APIs</p><p><strong>Tags</strong>: CSS3, HackerNewsAPI, React, TypeScript, Vite</p></li><li><p><strong>CV Website | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cv\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cv.ehtisham.dev/\">Website Link</a></p><p> This project is forked from <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/BartoszJarocki/cv%29\">BartoszJarocki/cv</a> and configured for myself</p><p><strong>Tags</strong>: NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>PromptShare | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/prompt-share\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://promptopia-sham.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs Pages router</p><p><strong>Tags</strong>: NextJs Pages router, TailwindCSS, mongoDB, mongoose</p></li><li><p><strong>Next Js Dashboard | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/nextjs-dashboard\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://proj-dashboard.vercel.app/\">Website Link</a></p><p> Made this project while learning NextJs App Router from nextjs documentation</p><p><strong>Tags</strong>: CSS3, NextJS, React, TailwindCSS, TypeScript</p></li><li><p><strong>Cluodinary Uploader | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/cloadnayUploader-\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://cloadnary-uploader.vercel.app/\">Website Link</a></p><p>Made this project while learning the Cluodinary Media database</p><p><strong>Tags</strong>: Cluodinary, CodeSandbox, Vite</p></li><li><p><strong>Van life | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/van-project\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://shamxyz.netlify.app/\">Website Link</a></p><p>Made this project while learning React-router-dom from bobzerol on Scrimba</p><p><strong>Tags</strong>: React-router-dom, Vite</p></li><li><p><strong>Redux Blogs | </strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://github.com/ehtisham-afzal/ReduxQuerry\">Repository Link</a> | <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"ac-anchor\" href=\"https://reduxblogs.netlify.app/\">Website Link</a></p><p>Made this project while learning Redux client-side state management, Redux-toolkit, Redux-query</p><p><strong>Tags</strong>: Redux, Redux-query, Redux Toolkit</p></li></ul>",
             "keywords": [],
             "url": {
               "label": "Public Repositories",
@@ -697,7 +749,7 @@
       },
       "rpiwp47l463vacgf3zr0k52u": {
         "name": "Skills",
-        "columns": 1,
+        "columns": 4,
         "separateLinks": true,
         "visible": true,
         "id": "rpiwp47l463vacgf3zr0k52u",
@@ -855,7 +907,7 @@
       ]
     ],
     "css": {
-      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
       "visible": false
     },
     "page": {

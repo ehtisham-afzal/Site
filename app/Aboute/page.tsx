@@ -101,7 +101,7 @@ const page = () => {
           <CTAButton className="w-full md:hidden" />
         </div>
         <div className="col-span-12 -order-1 md:order-2 md:col-span-4">
-          <div className="relative flex justify-center mb-20 group">
+          <div className="relative flex justify-center mb-3 group">
             <Image
               className="relative z-20 block w-full overflow-hidden rounded-2xl border-[1px] border-card-border backdrop-blur-sm bg-secondary/50"
               alt="Portrait of Ehtisham Afzal"

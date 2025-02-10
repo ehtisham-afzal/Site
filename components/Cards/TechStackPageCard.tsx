@@ -29,7 +29,7 @@ const TechStackPageCard = ({
           alt={Title}
           width="415"
           height="265"
-          className="absolute bottom-0 w-full mt-4 transition duration-500 ease-out origin-center select-none top-32 group-hover:scale-105"
+          className="absolute bottom-0 w-full mt-4 transition duration-500 ease-out origin-center select-none group-hover:scale-105"
           src={ImageUrl}
         />
       </Link>

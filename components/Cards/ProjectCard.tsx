@@ -33,9 +33,13 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
         lg:p-8 rounded-3xl bg-card hover:shadow-lg`}
     >
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between w-full h-full gap-6">
-        <div className={`flex flex-col gap-3 md:gap-4 ${ProjectImageUrl ? "lg:w-5/12" : "lg:w-full"}`}>
+        <div
+          className={`flex flex-col gap-3 md:gap-4 ${
+            ProjectImageUrl ? "lg:w-5/12" : "lg:w-full"
+          }`}
+        >
           {ProjectIconUrl && (
-            <Link className="w-fit text-black dark:text-white" href={`/Projects/${path}`}>
+            <Link className="w-fit text-foreground" href={`/Projects/${path}`}>
               <Image
                 alt={Name}
                 width="150"
@@ -46,7 +50,11 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
               />
             </Link>
           )}
-          <h2 className="text-xl md:text-2xl font-extrabold lg:text-3xl xl:text-4xl">{Name}</h2>
+          <Link href={`/Projects/${path}`}>
+            <h2 className="text-xl md:text-2xl font-extrabold lg:text-3xl xl:text-4xl">
+              {Name}
+            </h2>
+          </Link>
 
           {Summary && (
             <div
@@ -57,10 +65,10 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
           )}
           <div className="flex flex-wrap gap-1.5 md:gap-2 py-2">
             {Keywords?.map((keyword, index) => (
-              <Badge 
-                key={index} 
-                variant="secondary" 
-                className="text-xs md:text-sm"
+              <Badge
+                key={index}
+                variant="outline"
+                className="text-xs md:text-sm rounded-full hover:border-primary"
               >
                 {keyword}
               </Badge>
@@ -74,9 +82,9 @@ const ProjectCard = ({ Data }: { Data: ProjectCardTypes }) => {
             href={ProjectUrl}
           >
             Visit Site
-            <ArrowSmallRightIcon 
+            <ArrowSmallRightIcon
               className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-2 
-                transition-transform ease-in-out" 
+                transition-transform ease-in-out"
             />
           </a>
         </div>

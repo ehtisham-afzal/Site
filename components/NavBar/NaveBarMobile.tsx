@@ -20,7 +20,7 @@ import { cn } from "../../lib/utils";
 const NaveBarMobile = () => {
   const pathName = usePathname();
   return (
-    <header className="flex h-16 w-11/12 items-center justify-between fixed bottom-8 right-[4.3%]  z-50 rounded-2xl border border-primary bg-background/50 px-4 backdrop-blur-md md:hidden">
+    <header className="flex h-16 w-11/12 items-center justify-between fixed bottom-8 right-[4.3%]  z-50 rounded-2xl border dark:border-accent bg-background/50 px-4 backdrop-blur-md md:hidden">
       <nav className="w-full">
         <div className="flex items-center justify-between gap-4">
           <Link

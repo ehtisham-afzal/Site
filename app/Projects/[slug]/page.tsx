@@ -3,38 +3,24 @@ import { Metadata } from "next";
 import { Projects } from "@/lib/Data";
 import { siteConfig } from "@/config/site";
 import PageHeader from "@/components/PageHeader";
-import {
-  ArrowLeftIcon,
-  GlobeAltIcon,
-  CodeBracketIcon,
-} from "@heroicons/react/24/outline";
+import { GlobeAltIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  image?: string;
-  technologies: string[];
-  github?: string;
-  demo?: string;
-}
 
 async function getProject(slug: string) {
   return Projects.find((project) => project.path === slug) ?? null;
 }
 
 export async function generateMetadata({
-  params,
+  params
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const slug = (await params).slug;
   const project = await getProject(slug);
 
-  if (!project) {
+  if (!project?.path) {
     return {
       title: "Project Not Found",
     };
@@ -74,12 +60,12 @@ export async function generateMetadata({
 export default async function ProjectPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>
 }) {
   const slug = (await params).slug;
   const project = await getProject(slug);
 
-  if (!project) {
+  if (!project?.path) {
     notFound();
   }
 

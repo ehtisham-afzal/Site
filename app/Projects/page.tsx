@@ -33,7 +33,7 @@ const page = () => {
               Your project goes here
             </p>
             <p className="mb-10 text-secondary-foreground/50">
-              Let's collaborate and bring your vision to life
+              Lets collaborate and bring your vision to life
             </p>
             <CTAButton />
           </div>

@@ -1,15 +1,18 @@
 import React from "react";
 import { Separator } from "./ui/separator";
+import { cn } from "@/lib/utils";
 
 const PageHeader = ({
   Title,
   Description,
+  className,
 }: {
   Title: string;
   Description: string;
+  className? : string;
 }) => {
   return (
-    <header className="pl-2 mb-16 md:container mt-52">
+    <header className={cn("pl-2 mb-16 md:container mt-52",className)}>
       <h1 className="break-words text-5xl font-bold leading-none md:text-[80px]">
         {Title}
       </h1>

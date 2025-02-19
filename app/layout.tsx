@@ -73,7 +73,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta
-          content="DeZMdz2SzCyJfW9ccuc0ywIAsPBFlhXg-XX0hX8ocG0"
+          content="GmKluG9hc_vXFyw9Wea_KXy_8KBNvfs67yY29tzG8tI"
           name="google-site-verification"
         />
       </head>

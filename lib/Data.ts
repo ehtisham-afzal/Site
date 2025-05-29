@@ -26,6 +26,7 @@ export const SocialLinks = [
 type ProjectIconImage = {
   Icon: string;
   Image: string;
+  video?: string; // Optional property for video URL
 };
 
 const ProjectsIconsImages: Record<string, ProjectIconImage> = {
@@ -39,7 +40,8 @@ const ProjectsIconsImages: Record<string, ProjectIconImage> = {
   },
   "KafalatYateem.com": {
     Icon: "/Projects/KafalatEYateemLogo.webp",
-    Image: "/Projects/kafalatyateem.png",
+    Image: "/Projects/kafalatyateem.webp",
+    video : "https://res.cloudinary.com/sham007/video/upload/v1748504548/kafalatyateem_qmoxdx.mp4",
   },
   "ehtisham.vercel.app": {
     Icon: "/EA.svg",
@@ -83,6 +85,7 @@ export const Projects = RxResumeExport.sections.projects.items.map(
       // remove spaces
       path: project.name.replace(/\s/g, ""),
       Keywords: project.keywords,
+      video : ProjectsIconsImages[project.name]?.video,
     };
   }
 );

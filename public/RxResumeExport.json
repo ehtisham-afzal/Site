@@ -215,27 +215,7 @@
       "visible": true,
       "id": "projects",
       "items": [
-        {
-          "id": "u9mqg7n2pe4ovpp7sakf7eys",
-          "visible": true,
-          "name": "Rich text editor",
-          "description": "TipTap Rich Text Editor with shadcn/UI Components",
-          "date": "Jan 2025",
-          "summary": "<p>Developed a sophisticated rich-text editor leveraging <strong>TipTap</strong> and <strong>shadcn/UI</strong> components. Built with <strong>React</strong> and <strong>Next.js 15</strong>, this editor integrates seamlessly into any React project with a single command, thanks to the <strong>shadcn-cli</strong>. Key features include <strong>rich text formatting</strong> (<strong>bold</strong>, <em>italic</em>, <u>underline</u>), <strong>multiple heading levels</strong>, <strong>ordered and unordered lists</strong>, <strong>text alignment options</strong>, <strong>image uploads and management</strong>, <strong>text color and background customization</strong>, and <strong>search and replace functionality</strong>. Deployed on <strong>Vercel</strong>, the editor ensures unmatched scalability and reliability. Inspired by the shadcn-UI site, it offers a user-friendly interface and comprehensive features.</p>",
-          "keywords": [
-            "Next.js",
-            "Shadcn/UI",
-            "shadcn-cli",
-            "vercel-V0",
-            "Tiptap",
-            "vercel"
-          ],
-          "url": {
-            "label": "",
-            "href": "https://tiptap-shadcn.vercel.app/"
-          }
-        },
-        {
+         {
           "id": "tbdcwawmf86qbmbresyg5uz0",
           "visible": true,
           "name": "KafalatYateem.com",
@@ -256,6 +236,26 @@
           "url": {
             "label": "",
             "href": "https://kafalatyateem.com"
+          }
+        },
+        {
+          "id": "u9mqg7n2pe4ovpp7sakf7eys",
+          "visible": true,
+          "name": "Rich text editor",
+          "description": "TipTap Rich Text Editor with shadcn/UI Components",
+          "date": "Jan 2025",
+          "summary": "<p>Developed a sophisticated rich-text editor leveraging <strong>TipTap</strong> and <strong>shadcn/UI</strong> components. Built with <strong>React</strong> and <strong>Next.js 15</strong>, this editor integrates seamlessly into any React project with a single command, thanks to the <strong>shadcn-cli</strong>. Key features include <strong>rich text formatting</strong> (<strong>bold</strong>, <em>italic</em>, <u>underline</u>), <strong>multiple heading levels</strong>, <strong>ordered and unordered lists</strong>, <strong>text alignment options</strong>, <strong>image uploads and management</strong>, <strong>text color and background customization</strong>, and <strong>search and replace functionality</strong>. Deployed on <strong>Vercel</strong>, the editor ensures unmatched scalability and reliability. Inspired by the shadcn-UI site, it offers a user-friendly interface and comprehensive features.</p>",
+          "keywords": [
+            "Next.js",
+            "Shadcn/UI",
+            "shadcn-cli",
+            "vercel-V0",
+            "Tiptap",
+            "vercel"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://tiptap-shadcn.vercel.app/"
           }
         },
         {

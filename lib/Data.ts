@@ -93,9 +93,8 @@ export const Projects = RxResumeExport.sections.projects.items.map(
 
 ///  make dictionary of featured projects and then filter them from Projects
 const FPDectionary = [
+  "KafalatYateem.com",
   "Rich text editor",
-  "Muattar Store",
-  "OyeAI",
   "Little Lemon",
 ];
 export const FeaturedProjects = Projects.filter((project) =>

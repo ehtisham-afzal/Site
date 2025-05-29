@@ -27,17 +27,18 @@ export default async function sitemap() {
     "/Projects",
     "/TechStack",
     "/Projects/LittleLemon",
+    "/Projects/KafalatYateem.com",
   ].map((route: string) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString().split("T")[0],
-    changeFrequency: "daily",
+    changeFrequency: "weekly",
     priority: 1,
   }));
 
   const ProjectsRoutes = Projects.map((project) => ({
     url: `${baseUrl}/Projects/${project.path}`,
     lastModified: new Date().toISOString().split("T")[0],
-    changeFrequency: "daily",
+    changeFrequency: "weekly",
     priority: 1,
   }));
 

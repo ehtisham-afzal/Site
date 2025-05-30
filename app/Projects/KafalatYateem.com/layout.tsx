@@ -113,9 +113,10 @@ export default async function KafalatYateemLayout({
           <video
             poster={project.ProjectImageUrl}
             src={project.video}
-            autoPlay
             controls
-            className="w-full overflow-hidden rounded-xl border aspect-video h-full object-cover"
+            datatype="video/mp4"
+            title="Project Video"
+            className="w-full overflow-hidden rounded-xl border aspect-video object-cover"
           />
         ) : (
           project.ProjectImageUrl && (

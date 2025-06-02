@@ -30,10 +30,10 @@ export async function generateMetadata({
   const ogImage = project.ProjectImageUrl ?? siteConfig.ogImage;
 
   return {
-    title: project.Name,
+    title: `case study ${project.Name}`,
     description: project.Description,
     openGraph: {
-      title: project.Name,
+      title: `case study ${project.Name}`,
       description: project.Description,
       type: "article",
       url: `${siteConfig.url}/Projects/${project.path}`,
@@ -48,7 +48,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: project.Name,
+      title: `case study ${project.Name}`,
       description: project.Description,
       images: [ogImage],
     },
